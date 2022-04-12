@@ -1,0 +1,41 @@
+Run the "update" script to automatically generate new dependency
+lists.  The result will be based on the published seed lists, filtered
+by:
+
+- The Packages files (nonexistent packages will be skipped)
+
+- debootstrap (packages not yet added to debootstrap will not be added
+  to ubuntu-base)
+
+## Rebuilding the meta package
+
+Install the required tools.
+
+    apt-get install devscripts debhelper dput python-scour quilt
+
+Export your name and email address registered with Laucnhpad.
+
+    export DEBEMAIL="code@flexion.org"
+    export DEBFULLNAME="Martin Wimpress"
+
+Update the dependency lists, from the seeds (only required if you've
+pushed changes the seeds repository) and this will also update the
+changelog.
+
+    ./update
+
+If you need, or want, to update the changelog then something like the following will do it.
+
+    dch --distribution utopic --newversion 1.000ppa1 --force-bad-version --urgency=medium "Describe what changed."
+
+Set the release target.
+
+    sed -i 's/UNRELEASED/utopic/' debian/changelog
+
+Build the package, use a signing key register with Lauchpad.
+
+    dpkg-buildpackage -d -S -sa -k0864983E
+
+Upload the package to Lanchpad for building.
+
+    dput ppa:ubuntu-mate-dev/ppa `ls -1tr ../ubuntu-mate-meta*_source.changes | tail -n1`

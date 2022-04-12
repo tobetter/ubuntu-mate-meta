@@ -1,0 +1,2971 @@
+ubuntu-mate-meta (1.263) focal; urgency=medium
+
+  * Refreshed dependencies
+  * Added gamemode to core-recommends [amd64], desktop-recommends
+    [amd64] (LP: #1853830)
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Sun, 12 Apr 2020 11:35:14 +0100
+
+ubuntu-mate-meta (1.262) focal; urgency=medium
+
+  * Refreshed dependencies
+  * Added cryptsetup to core, desktop (LP: #1864293)
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 02 Apr 2020 17:56:51 +0100
+
+ubuntu-mate-meta (1.261) focal; urgency=medium
+
+  * Refreshed dependencies
+  * Removed exfat-fuse from core-recommends, desktop-recommends (LP: #1862028)
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 27 Feb 2020 09:35:24 +0000
+
+ubuntu-mate-meta (1.260) focal; urgency=medium
+
+  * Refreshed dependencies
+  * Added fortune-mod to core, desktop
+  * Removed cryptsetup from core, desktop
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Mon, 17 Feb 2020 09:33:30 +0000
+
+ubuntu-mate-meta (1.259) focal; urgency=medium
+
+  * Refreshed dependencies
+  * Added celluloid to desktop-recommends
+  * Added gnome-firmware to desktop-recommends
+  * Added plymouth-theme-spinner to desktop-recommends
+  * Removed gnome-mpv from desktop-recommends
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Fri, 14 Feb 2020 08:21:42 +0000
+
+ubuntu-mate-meta (1.258) focal; urgency=medium
+
+  * update.cfg: Stop updating for i386 to avoid unnecessary noise.
+  * Refreshed dependencies
+  * Added zfs-initramfs to live [amd64 arm64 ppc64el s390x]
+  * Added zfsutils-linux to live
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 10 Dec 2019 14:42:11 -0800
+
+ubuntu-mate-meta (1.257) eoan; urgency=medium
+
+  * Refreshed dependencies (LP: #1847739)
+  * Removed zfs-initramfs from core-recommends [amd64 arm64 ppc64el
+    s390x], desktop-recommends [amd64 arm64 ppc64el s390x]
+  * Removed zfsutils-linux from core-recommends, desktop-recommends
+  * Removed zsys from core-recommends [amd64 arm64 armhf i386 ppc64el],
+    desktop-recommends [amd64 arm64 armhf i386 ppc64el]
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Sat, 12 Oct 2019 18:46:55 +0100
+
+ubuntu-mate-meta (1.256) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added zfs-initramfs to core-recommends [amd64 arm64 ppc64el s390x],
+    desktop-recommends [amd64 arm64 ppc64el s390x] (LP: #1847431)
+  * Added zsys to core-recommends [amd64 arm64 armhf i386 ppc64el],
+    desktop-recommends [amd64 arm64 armhf i386 ppc64el]
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Wed, 09 Oct 2019 13:10:44 +0100
+
+ubuntu-mate-meta (1.255) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Moved zfsutils-linux to core-recommends, desktop-recommends (LP: #1846841)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 04 Oct 2019 23:39:29 +0100
+
+ubuntu-mate-meta (1.254) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added zfsutils-linux to core, desktop (LP: #1843768)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 04 Oct 2019 13:26:30 +0100
+
+ubuntu-mate-meta (1.253) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added cryptsetup to core, desktop (LP: #11841672, #1801629)
+  * Added libnotify-bin to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 25 Sep 2019 00:47:17 +0100
+
+ubuntu-mate-meta (1.252) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-menus to core-recommends, desktop-recommends
+  * Removed libnotify-bin from core, desktop
+  * Removed pm-utils from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 02 Sep 2019 02:09:38 +0100
+
+ubuntu-mate-meta (1.251) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-mpv to desktop-recommends
+  * Removed vlc from desktop-recommends
+  * Removed vlc-plugin-notify from desktop-recommends
+  * Removed vlc-plugin-samba from desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 01 Sep 2019 02:18:53 +0100
+
+ubuntu-mate-meta (1.250) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Removed compiz from desktop-recommends [amd64 i386 ppc64el s390x]
+  * Removed compiz-core from desktop-recommends [amd64 i386 ppc64el
+    s390x]
+  * Removed compiz-mate from desktop-recommends [amd64 i386 ppc64el
+    s390x]
+  * Removed compiz-plugins from desktop-recommends [amd64 i386 ppc64el
+    s390x]
+  * Removed compiz-plugins-default from desktop-recommends [amd64 i386
+    ppc64el s390x]
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 31 Aug 2019 12:48:44 +0100
+
+ubuntu-mate-meta (1.249) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added xterm to core-recommends, desktop-recommends
+  * Removed libnotify4 from core, desktop
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 29 Aug 2019 21:18:04 +0100
+
+ubuntu-mate-meta (1.248) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added libnotify4 to core, desktop
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 29 Aug 2019 15:26:21 +0100
+
+ubuntu-mate-meta (1.247) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added magnus to core-recommends [i386], desktop-recommends [i386]
+  * Removed qt-at-spi from core-recommends, desktop-recommends
+  * Removed sni-qt from core-recommends, desktop-recommends
+  * Removed xterm from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 28 Aug 2019 22:36:04 +0100
+
+ubuntu-mate-meta (1.246) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added magnus to core-recommends [amd64 arm64 armhf ppc64el s390x],
+    desktop-recommends [amd64 arm64 armhf ppc64el s390x]
+  * Removed btrfs-progs from live
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 14 Aug 2019 21:59:55 +0100
+
+ubuntu-mate-meta (1.245) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added caja-mediainfo to desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 19 Jul 2019 13:18:21 +0100
+
+ubuntu-mate-meta (1.244) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added indicator-notifications to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 03 Jun 2019 15:32:05 +0100
+
+ubuntu-mate-meta (1.243) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubiquity-frontend-gtk-panel to live [amd64 arm64 armhf i386
+    ppc64el]
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Thu, 30 May 2019 10:19:51 +0100
+
+ubuntu-mate-meta (1.242) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Removed evolution-indicator from desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 10 May 2019 09:37:08 +0100
+
+ubuntu-mate-meta (1.241) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Removed firefox-locale-zh-hans from live
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 09 May 2019 20:26:54 +0100
+
+ubuntu-mate-meta (1.240) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Removed fonts-arphic-ukai from live
+  * Removed fonts-arphic-uming from live
+  * Removed language-pack-gnome-zh-hans from live
+  * Removed language-pack-zh-hans from live
+  * Removed libreoffice-help-zh-cn from live
+  * Removed libreoffice-l10n-zh-cn from live
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 09 May 2019 18:51:15 +0100
+
+ubuntu-mate-meta (1.239) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added indicator-datetime to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 07 May 2019 19:14:15 +0100
+
+ubuntu-mate-meta (1.238) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Removed xzoom from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 04 May 2019 10:40:45 +0100
+
+ubuntu-mate-meta (1.237) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Removed gnome-calendar from desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 04 May 2019 02:06:36 +0100
+
+ubuntu-mate-meta (1.236) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Removed xul-ext-calendar-timezones from desktop-recommends
+  * Removed xul-ext-gdata-provider from desktop-recommends
+  * Removed xul-ext-lightning from desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 03 May 2019 22:39:44 +0100
+
+ubuntu-mate-meta (1.235) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added evolution to desktop-recommends
+  * Added evolution-ews to desktop-recommends
+  * Added evolution-indicator to desktop-recommends
+  * Added evolution-plugins to desktop-recommends
+  * Added evolution-rss to desktop-recommends
+  * Added gnome-calendar to desktop-recommends
+  * Removed inxi from core-recommends, desktop-recommends
+  * Removed thunderbird from desktop-recommends
+  * Removed thunderbird-gnome-support from desktop-recommends
+  * Removed thunderbird-locale-de from live
+  * Removed thunderbird-locale-en from live
+  * Removed thunderbird-locale-es from live
+  * Removed thunderbird-locale-fr from live
+  * Removed thunderbird-locale-it from live
+  * Removed thunderbird-locale-pt from live
+  * Removed thunderbird-locale-ru from live
+  * Removed thunderbird-locale-zh-hans from live
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 03 May 2019 22:27:32 +0100
+
+ubuntu-mate-meta (1.234) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added hunspell-en-au to live
+  * Added hunspell-en-gb to live
+  * Added hunspell-en-za to live
+  * Added hunspell-es to live
+  * Added hunspell-it to live
+  * Added hunspell-pt-br to live
+  * Added hunspell-pt-pt to live
+  * Added hyphen-en-ca to live
+  * Added hyphen-en-gb to live
+  * Added hyphen-pt-br to live
+  * Added hyphen-pt-pt to live
+  * Added mythes-pt-pt to live
+  * Removed libreoffice-help-zh-tw from live
+  * Removed libreoffice-l10n-zh-tw from live
+  * Removed myspell-en-au from live
+  * Removed myspell-es from live
+  * Removed myspell-pt from live
+  * Removed openoffice.org-hyphenation from live
+  * Removed qt5-style-plugin-gtk2 from core-recommends, desktop-
+    recommends
+  * Removed thunderbird-locale-en-gb from live
+  * Removed thunderbird-locale-en-us from live
+  * Removed thunderbird-locale-es-ar from live
+  * Removed thunderbird-locale-es-es from live
+  * Removed thunderbird-locale-pt-br from live
+  * Removed thunderbird-locale-pt-pt from live
+  * Removed thunderbird-locale-zh-cn from live
+  * Removed thunderbird-locale-zh-tw from live
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 03 May 2019 02:46:36 +0100
+
+ubuntu-mate-meta (1.233) eoan; urgency=medium
+
+  * Refreshed dependencies
+  * Added qt5-style-platform-gtk2 to core-recommends, desktop-recommends
+  * Added qt5-style-plugin-gtk2 to core-recommends, desktop-recommends
+  * Removed brasero from desktop-recommends
+  * Removed fcitx-bin from live
+  * Removed qt5-style-plugins from core-recommends, desktop-recommends
+  * Removed rhythmbox-plugin-cdrecorder from desktop-recommends
+  * Removed usb-creator-gtk from desktop-recommends [amd64 i386]
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 02 May 2019 23:49:54 +0100
+
+ubuntu-mate-meta (1.232) disco; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-symbola to core-recommends, desktop-recommends (LP: #1767592)
+  * Removed sessioninstaller from core-recommends, desktop-recommends (LP: #1824532)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 12 Apr 2019 14:19:55 +0100
+
+ubuntu-mate-meta (1.231) disco; urgency=medium
+
+  * Refreshed dependencies (LP: #1813538)
+  * Added thunderbird to desktop-recommends [s390x]
+  * Added thunderbird-gnome-support to desktop-recommends [s390x]
+  * Added thunderbird-locale-de to live [s390x]
+  * Added thunderbird-locale-en to live [s390x]
+  * Added thunderbird-locale-es to live [s390x]
+  * Added thunderbird-locale-fr to live [s390x]
+  * Added thunderbird-locale-it to live [s390x]
+  * Added thunderbird-locale-pt to live [s390x]
+  * Added thunderbird-locale-ru to live [s390x]
+  * Added thunderbird-locale-zh-hans to live [s390x]
+  * Added xul-ext-calendar-timezones to desktop-recommends [s390x]
+  * Added xul-ext-gdata-provider to desktop-recommends [s390x]
+  * Added xul-ext-lightning to desktop-recommends [s390x]
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 06 Apr 2019 11:51:47 +0100
+
+ubuntu-mate-meta (1.230) disco; urgency=medium
+
+  * Refreshed dependencies
+  * Removed fonts-noto from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 18 Mar 2019 19:36:50 +0000
+
+ubuntu-mate-meta (1.229) disco; urgency=medium
+
+  * Refreshed dependencies
+  * Added whoopsie-preferences to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 13 Nov 2018 17:13:12 +0000
+
+ubuntu-mate-meta (1.228) disco; urgency=medium
+
+  * Refreshed dependencies
+  * Added pulsemixer to core-recommends, desktop-recommends
+  * Added yaru-theme-sound to core-recommends, desktop-recommends
+  * Removed ubuntu-sounds from core, desktop
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 13 Nov 2018 15:14:40 +0000
+
+ubuntu-mate-meta (1.227) cosmic; urgency=medium
+
+  * Point at git for the platform seeds.
+  * Update for cosmic.
+  * Refreshed dependencies
+  * Added btrfs-progs to live
+  * Added firefox to core-recommends [s390x], desktop-recommends [s390x]
+  * Added firefox-locale-de to live [s390x]
+  * Added firefox-locale-en to live [s390x]
+  * Added firefox-locale-es to live [s390x]
+  * Added firefox-locale-fr to live [s390x]
+  * Added firefox-locale-it to live [s390x]
+  * Added firefox-locale-pt to live [s390x]
+  * Added firefox-locale-ru to live [s390x]
+  * Added firefox-locale-zh-hans to live [s390x]
+  * Added fwupd-signed to core-recommends [amd64 arm64 armhf i386],
+    desktop-recommends [amd64 arm64 armhf i386]
+  * Removed btrfs-tools from live
+  * Removed fwupdate from core-recommends [amd64 arm64 armhf i386],
+    desktop-recommends [amd64 arm64 armhf i386]
+  * Removed fwupdate-signed from core-recommends [amd64 arm64 armhf
+    i386], desktop-recommends [amd64 arm64 armhf i386], live [amd64
+    arm64 armhf i386]
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Thu, 16 Aug 2018 20:01:14 +0000
+
+ubuntu-mate-meta (1.225) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed gvfs-bin from core, desktop
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 24 Apr 2018 10:51:40 +0100
+
+ubuntu-mate-meta (1.224) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added qt-at-spi to core-recommends, desktop-recommends
+  * Added sni-qt to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 23 Apr 2018 21:01:32 +0100
+
+ubuntu-mate-meta (1.223) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added lightdm-settings to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 19 Apr 2018 21:01:01 +0100
+
+ubuntu-mate-meta (1.222) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-report to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 11 Apr 2018 17:55:10 +0100
+
+ubuntu-mate-meta (1.221) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added inxi to core-recommends, desktop-recommends
+  * Added nvidia-prime to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 07 Apr 2018 11:19:58 +0100
+
+ubuntu-mate-meta (1.220) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed qt-at-spi from core-recommends, desktop-recommends
+  * Removed sni-qt from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 30 Mar 2018 01:17:42 +0100
+
+ubuntu-mate-meta (1.219) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed dmz-cursor-theme from core, desktop
+  * Removed xcursor-themes from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 29 Mar 2018 00:58:43 +0100
+
+ubuntu-mate-meta (1.218) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added dirmngr to core-recommends, desktop-recommends
+  * Added dmraid to live
+  * Added gpg-agent to core-recommends, desktop-recommends
+  * Added lvm2 to live
+  * Added python3-aptdaemon.gtk3widgets to core-recommends, desktop-
+    recommends
+  * Removed gnupg-agent from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 15 Mar 2018 16:44:35 +0000
+
+ubuntu-mate-meta (1.217) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-ubuntu to core-recommends, desktop-recommends
+  * Removed breeze-cursor-theme from core-recommends, desktop-recommends
+  * Removed ttf-ubuntu-font-family from core-recommends, desktop-
+    recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 01 Mar 2018 02:19:32 +0000
+
+ubuntu-mate-meta (1.216) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed libp11-kit-gnome-keyring from core, desktop (LP: #1745055)
+  * Removed python3-aptdaemon.gtk3widgets from core, desktop (LP: #1673258)
+  * Moved unattended-upgrades to core-recommends, desktop-recommends (LP: #1724499)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 28 Feb 2018 01:48:26 +0000
+
+ubuntu-mate-meta (1.215) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed inxi from desktop-recommends
+  * Removed ubuntu-mate-welcome from desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 28 Feb 2018 00:09:45 +0000
+
+ubuntu-mate-meta (1.214) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added libu2f-udev to core, desktop
+  * Added plank to core-recommends
+  * Added printer-driver-m2300w to core-recommends, desktop-recommends
+  * Added spice-vdagent to core, desktop
+  * Removed caja-eiciel from core-recommends
+  * Removed caja-gtkhash from core-recommends
+  * Removed caja-seahorse from core-recommends
+  * Removed gufw from core-recommends
+  * Removed inxi from core-recommends
+  * Removed plymouth-theme-ubuntu-mate-logo from core-recommends
+  * Removed plymouth-theme-ubuntu-mate-text from core-recommends
+  * Removed seahorse from core-recommends
+  * Removed simple-scan from core-recommends
+  * Removed ttf-ancient-fonts-symbola from core-recommends, desktop-
+    recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 26 Feb 2018 12:45:06 +0000
+
+ubuntu-mate-meta (1.213) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added appmenu-gtk2-module to core-recommends, desktop-recommends
+  * Added appmenu-gtk3-module to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 12 Feb 2018 01:36:57 +0000
+
+ubuntu-mate-meta (1.212) bionic; urgency=medium
+
+  * Refreshed dependencies (LP: #1745176)
+  * Added orca to core-recommends, desktop-recommends
+  * Removed gnome-orca from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 24 Jan 2018 18:23:09 +0000
+
+ubuntu-mate-meta (1.211) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added breeze-cursor-theme to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 22 Jan 2018 01:12:08 +0000
+
+ubuntu-mate-meta (1.210) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added mozo to core-recommends, desktop-recommends
+  * Removed menulibre from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 18 Jan 2018 22:19:39 +0000
+
+ubuntu-mate-meta (1.209) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-noto-color-emoji to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 01 Jan 2018 14:00:12 +0000
+
+ubuntu-mate-meta (1.208) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added duplicity to desktop-recommends (LP: #1732530)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 30 Dec 2017 22:23:35 +0000
+
+ubuntu-mate-meta (1.207) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added caja-eiciel to core-recommends, desktop-recommends
+  * Added caja-seahorse to core-recommends, desktop-recommends
+  * Added firefox to core-recommends [ppc64el], desktop-recommends
+    [ppc64el]
+  * Added firefox-locale-de to live [ppc64el]
+  * Added firefox-locale-en to live [ppc64el]
+  * Added firefox-locale-es to live [ppc64el]
+  * Added firefox-locale-fr to live [ppc64el]
+  * Added firefox-locale-it to live [ppc64el]
+  * Added firefox-locale-pt to live [ppc64el]
+  * Added firefox-locale-ru to live [ppc64el]
+  * Added firefox-locale-zh-hans to live [ppc64el]
+  * Removed caja-xattr-tags from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 30 Dec 2017 17:35:24 +0000
+
+ubuntu-mate-meta (1.206) bionic; urgency=medium
+
+  * Refreshed dependencies
+  * Added mate-window-buttons-applet to core-recommends, desktop-
+    recommends
+  * Added mate-window-menu-applet to core-recommends, desktop-recommends
+  * Added mate-window-title-applet to core-recommends, desktop-
+    recommends
+  * Removed fonts-nanum from core-recommends, desktop-recommends
+  * Removed fonts-takao-pgothic from core-recommends, desktop-recommends
+  * Removed myspell-en-gb from live
+  * Removed myspell-en-za from live
+  * Removed myspell-it from live
+  * Moved ubuntu-mate-artwork to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 14 Nov 2017 14:14:27 +0000
+
+ubuntu-mate-meta (1.205) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-indic to core-recommends, desktop-recommends
+  * Added fonts-noto-cjk to core-recommends, desktop-recommends
+  * Removed fonts-guru from core-recommends, desktop-recommends
+  * Removed fonts-noto-cjk from live
+  * Removed thunderbird from desktop-recommends [s390x]
+  * Removed thunderbird-gnome-support from desktop-recommends [s390x]
+  * Removed thunderbird-locale-de from live [s390x]
+  * Removed thunderbird-locale-en from live [s390x]
+  * Removed thunderbird-locale-es from live [s390x]
+  * Removed thunderbird-locale-fr from live [s390x]
+  * Removed thunderbird-locale-it from live [s390x]
+  * Removed thunderbird-locale-pt from live [s390x]
+  * Removed thunderbird-locale-ru from live [s390x]
+  * Removed thunderbird-locale-zh-hans from live [s390x]
+  * Removed xul-ext-calendar-timezones from desktop-recommends [s390x]
+  * Removed xul-ext-gdata-provider from desktop-recommends [s390x]
+  * Removed xul-ext-lightning from desktop-recommends [s390x]
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Sun, 08 Oct 2017 18:28:34 -0400
+
+ubuntu-mate-meta (1.204) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Removed firefox from core-recommends [ppc64el], desktop-recommends
+    [ppc64el]
+  * Removed firefox-locale-de from live [ppc64el]
+  * Removed firefox-locale-en from live [ppc64el]
+  * Removed firefox-locale-es from live [ppc64el]
+  * Removed firefox-locale-fr from live [ppc64el]
+  * Removed firefox-locale-it from live [ppc64el]
+  * Removed firefox-locale-pt from live [ppc64el]
+  * Removed firefox-locale-ru from live [ppc64el]
+  * Removed firefox-locale-zh-hans from live [ppc64el]
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>  Mon, 25 Sep 2017 11:37:00 -0400
+
+ubuntu-mate-meta (1.203) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-mate-guide to desktop-recommends
+  * Removed hexchat from desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 06 Sep 2017 14:32:34 +0100
+
+ubuntu-mate-meta (1.202) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added caja-admin to core-recommends, desktop-recommends
+  * Added caja-rename to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 05 Sep 2017 12:47:07 +0100
+
+ubuntu-mate-meta (1.201) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Removed gksu from desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 27 Aug 2017 10:46:51 +0100
+
+ubuntu-mate-meta (1.200) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added gksu to desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 23 Aug 2017 00:35:01 +0100
+
+ubuntu-mate-meta (1.199) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added slick-greeter to core-recommends, desktop-recommends
+  * Removed caja-gksu from core-recommends, desktop-recommends
+  * Removed gksu from core-recommends, desktop-recommends
+  * Removed lightdm from core, desktop
+  * Removed lightdm-gtk-greeter from core-recommends, desktop-recommends
+  * Removed lightdm-gtk-greeter-settings from core-recommends, desktop-
+    recommends
+  * Removed ubuntu-mate-lightdm-theme from core-recommends, desktop-
+    recommends
+  * Removed xul-ext-ubufox from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 17 Aug 2017 17:17:06 +0100
+
+ubuntu-mate-meta (1.198) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added caja-gtkhash to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 27 Jul 2017 00:16:56 +0100
+
+ubuntu-mate-meta (1.197) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added mate-applet-appmenu to core-recommends, desktop-recommends
+  * Added mate-hud to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 20 Jul 2017 22:33:54 +0100
+
+ubuntu-mate-meta (1.196) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-control-center-faces to core, desktop
+  * Added kerneloops to core-recommends, desktop-recommends
+  * Removed kerneloops-daemon from core-recommends, desktop-recommends
+  * Removed unity-control-center-faces from core, desktop
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 11 Jul 2017 12:28:08 -0600
+
+ubuntu-mate-meta (1.195) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added indicator-session to core-recommends, desktop-recommends
+  * Removed indicator-session from live
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 16 Jun 2017 11:49:45 +0100
+
+ubuntu-mate-meta (1.194) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added indicator-power to core-recommends, desktop-recommends
+  * Removed indicator-applet from live
+  * Removed indicator-power from live
+  * Removed synapse from desktop-recommends
+
+ -- Martin Wimpress <martin.wimpress@canonical.com>  Tue, 13 Jun 2017 12:58:14 +0100
+
+ubuntu-mate-meta (1.193) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added redshift-gtk to desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 15 May 2017 23:26:28 +0100
+
+ubuntu-mate-meta (1.192) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added caja-xattr-tags to core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 12 May 2017 20:44:07 +0100
+
+ubuntu-mate-meta (1.191) artful; urgency=medium
+
+  * Refreshed dependencies
+  * Added menulibre to core-recommends, desktop-recommends
+  * Removed libtopmenu-client-gtk2-0 from core-recommends, desktop-
+    recommends
+  * Removed libtopmenu-client-gtk3-0 from core-recommends, desktop-
+    recommends
+  * Removed libtopmenu-server-gtk2-0 from core-recommends, desktop-
+    recommends
+  * Removed libtopmenu-server-gtk3-0 from core-recommends, desktop-
+    recommends
+  * Removed mate-applet-topmenu from core-recommends, desktop-recommends
+  * Removed mate-icon-theme-faenza from core-recommends, desktop-
+    recommends
+  * Removed mozo from core-recommends, desktop-recommends
+  * Removed topmenu-gtk-common from core-recommends, desktop-recommends
+  * Removed topmenu-gtk2 from core-recommends, desktop-recommends
+  * Removed topmenu-gtk3 from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 24 Apr 2017 23:13:56 +0100
+
+ubuntu-mate-meta (1.190) zesty; urgency=medium
+
+  * Refreshed dependencies
+  * Added deja-dup to desktop-recommends [s390x]
+  * Added indicator-power to live [s390x]
+  * Added indicator-session to live [s390x]
+  * Added indicator-sound to core-recommends [s390x], desktop-recommends
+    [s390x]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Mon, 10 Apr 2017 07:41:18 -0600
+
+ubuntu-mate-meta (1.189) zesty; urgency=medium
+
+  * Remove powerpc metapackages.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Mon, 20 Mar 2017 18:35:13 -0600
+
+ubuntu-mate-meta (1.188) zesty; urgency=medium
+
+  * Refreshed dependencies
+  * Removed libegl1-mesa-drivers from core-recommends, desktop-
+    recommends (LP: #1674044)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 19 Mar 2017 08:51:39 +0000
+
+ubuntu-mate-meta (1.187) zesty; urgency=medium
+
+  * Refreshed dependencies
+  * Removed grub2-themes-ubuntu-mate from core [amd64 i386], desktop
+    [amd64 i386] (LP: #1673845, #1525346, #1404006)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 18 Mar 2017 18:07:30 +0000
+
+ubuntu-mate-meta (1.186) zesty; urgency=medium
+
+  * Refreshed dependencies
+  * Added mate-applet-brisk-menu to core-recommends, desktop-recommends
+  * Added mate-calc to core-recommends, desktop-recommends
+  * Removed galculator from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 14 Mar 2017 12:44:24 +0000
+
+ubuntu-mate-meta (1.185) zesty; urgency=medium
+
+  * Refreshed dependencies
+  * Added rhythmbox-plugin-alternative-toolbar to desktop-recommends
+  * Removed ntp from core-recommends, desktop-recommends
+  * Moved memtest86+ to core-recommends [amd64 i386], desktop-recommends
+    [amd64 i386]
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Thu, 16 Feb 2017 22:58:59 +0000
+
+ubuntu-mate-meta (1.184) zesty; urgency=medium
+
+  * Refreshed dependencies
+  * Added qt5-style-plugins to core-recommends, desktop-recommends
+  * Removed qt4-qtconfig from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Mon, 16 Jan 2017 23:56:49 +0000
+
+ubuntu-mate-meta (1.183) zesty; urgency=medium
+
+  * Rebuild to pick newer qtbase.
+  * Bump dh compat to 9.
+    + change dh sequencing to affect the same.
+
+ -- Bhavani Shankar <bhavi@ubuntu.com>  Mon, 16 Jan 2017 09:50:26 +0530
+
+ubuntu-mate-meta (1.182) zesty; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-tiresias to core-recommends, desktop-recommends
+  * Removed deja-dup-backend-cloudfiles from desktop-recommends
+  * Removed deja-dup-backend-gvfs from desktop-recommends
+  * Removed deja-dup-backend-s3 from desktop-recommends
+  * Removed ppa-purge from core-recommends, desktop-recommends
+  * Removed tlp from desktop-recommends
+  * Removed tlp-rdw from desktop-recommends
+  * Removed ttf-tiresias from core-recommends, desktop-recommends
+  * Removed xserver-xorg from core, desktop
+  * Removed xserver-xorg-input-all from core, desktop
+  * Removed xserver-xorg-video-all from core, desktop
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 13 Jan 2017 09:10:14 +0000
+
+ubuntu-mate-meta (1.181) zesty; urgency=medium
+
+  * Refreshed dependencies
+  * Removed dconf-editor from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 21 Dec 2016 13:03:16 +0000
+
+ubuntu-mate-meta (1.180) zesty; urgency=medium
+
+  * Refreshed dependencies
+  * Removed libaacs0 from desktop
+  * Removed libbluray-bdj from desktop-recommends
+  * Removed libbluray-bin from desktop
+  * Removed libbluray1 from desktop
+  * Removed libdvdnav4 from desktop
+  * Removed libdvdread4 from desktop
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 20 Dec 2016 16:11:42 +0000
+
+ubuntu-mate-meta (1.179) zesty; urgency=medium
+
+  * Refreshed dependencies
+  * Added firefox to core-recommends [ppc64el], desktop-recommends
+    [ppc64el]
+  * Added firefox-locale-de to live [ppc64el]
+  * Added firefox-locale-en to live [ppc64el]
+  * Added firefox-locale-es to live [ppc64el]
+  * Added firefox-locale-fr to live [ppc64el]
+  * Added firefox-locale-it to live [ppc64el]
+  * Added firefox-locale-pt to live [ppc64el]
+  * Added firefox-locale-ru to live [ppc64el]
+  * Added firefox-locale-zh-hans to live [ppc64el]
+  * Added system-config-printer to core-recommends, desktop-recommends
+  * Removed deja-dup from desktop-recommends [s390x]
+  * Removed indicator-power from live [s390x]
+  * Removed indicator-sound from core-recommends [s390x], desktop-
+    recommends [s390x]
+  * Removed system-config-printer-gnome from core-recommends, desktop-
+    recommends
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Tue, 06 Dec 2016 11:33:40 +0100
+
+ubuntu-mate-meta (1.178) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Removed firefox from core-recommends [powerpc ppc64el s390x],
+    desktop-recommends [powerpc ppc64el s390x]
+  * Removed firefox-locale-de from live [powerpc ppc64el s390x]
+  * Removed firefox-locale-en from live [powerpc ppc64el s390x]
+  * Removed firefox-locale-es from live [powerpc ppc64el s390x]
+  * Removed firefox-locale-fr from live [powerpc ppc64el s390x]
+  * Removed firefox-locale-it from live [powerpc ppc64el s390x]
+  * Removed firefox-locale-pt from live [powerpc ppc64el s390x]
+  * Removed firefox-locale-ru from live [powerpc ppc64el s390x]
+  * Removed firefox-locale-zh-hans from live [powerpc ppc64el s390x]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 11 Oct 2016 21:59:05 -0600
+
+ubuntu-mate-meta (1.177) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Removed indicator-session from live [s390x]
+  * Removed pulseaudio-module-x11 from core-recommends, desktop-
+    recommends
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 26 Aug 2016 16:52:30 -0600
+
+ubuntu-mate-meta (1.176) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Removed mate-hud from core-recommends, desktop-recommends
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 17 Aug 2016 15:28:06 +0100
+
+ubuntu-mate-meta (1.175) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added packagekit to core-recommends, desktop-recommends
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 16 Aug 2016 18:36:03 -0600
+
+ubuntu-mate-meta (1.174) yakkety; urgency=medium
+
+  * Stop keeping a log in the package
+  * Refreshed dependencies
+  * Removed python3-aptdaemon.pkcompat from core-recommends, desktop-
+    recommends
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 16 Aug 2016 03:09:10 -0600
+
+ubuntu-mate-meta (1.173) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added network-manager-pptp-gnome to core-recommends, desktop-
+    recommends
+  * Added pppoeconf to core-recommends, desktop-recommends
+  * Removed dmraid from live
+  * Removed grub-pc from live [i386]
+  * Removed keyutils from live
+  * Removed lvm2 from live
+  * Removed yaboot from live [powerpc]
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 29 Jul 2016 13:20:54 +0100
+
+ubuntu-mate-meta (1.172) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added mate-hud to core-recommends, desktop-recommends
+  * Removed python3-aptdaemon from core, desktop
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 26 Jul 2016 06:48:16 +0100
+
+ubuntu-mate-meta (1.171) yakkety; urgency=medium
+
+  * debian/control: Drop ubuntu-mate-cloudtop.
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 06 Jul 2016 02:38:18 +0100
+
+ubuntu-mate-meta (1.170) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added cheese to desktop-recommends
+  * Added indicator-messages to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Added indicator-session to live
+  * Moved indicator-application to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved indicator-sound to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved mate-themes to cloudtop-recommends, core-recommends, desktop-
+    recommends
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 01 Jul 2016 13:14:03 +0100
+
+ubuntu-mate-meta (1.169) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added mate-dock-applet to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved mozo to cloudtop-recommends, core-recommends, desktop-
+    recommends
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 24 Jun 2016 09:29:57 +0100
+
+ubuntu-mate-meta (1.168) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Removed gstreamer1.0-plugins-base-apps from cloudtop, core, desktop
+
+ -- Martin Wimpress <code@flexion.org>  Thu, 23 Jun 2016 11:03:30 +0100
+
+ubuntu-mate-meta (1.167) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-noto-cjk to live
+  * Removed cheese from desktop-recommends
+  * Removed fonts-noto-cjk from cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Removed fonts-noto-mono from cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Removed fonts-noto-unhinted from cloudtop-recommends, core-
+    recommends, desktop-recommends
+  * Removed pidgin from cloudtop-recommends, desktop-recommends
+  * Removed pidgin-otr from cloudtop-recommends, desktop-recommends
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 22 Jun 2016 17:16:36 +0100
+
+ubuntu-mate-meta (1.166) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added gvfs-bin to cloudtop, core, desktop
+  * Added thunderbird-gnome-support to cloudtop-recommends, desktop-
+    recommends
+  * Removed apport-gtk from cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Removed libreoffice-avmedia-backend-gstreamer from cloudtop-
+    recommends, desktop-recommends
+  * Removed rhythmbox-plugins from desktop-recommends
+  * Moved lightdm to cloudtop, core, desktop
+  * Moved yelp to cloudtop, core, desktop
+  * Moved zenity to cloudtop, core, desktop
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 15 Jun 2016 16:03:04 +0100
+
+ubuntu-mate-meta (1.165) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added gstreamer1.0-plugins-base-apps to cloudtop, core, desktop
+  * Removed accountsservice from cloudtop, core, desktop
+  * Removed acpid from cloudtop, core, desktop
+  * Removed apport-symptoms from cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Removed avahi-utils from cloudtop, core, desktop
+  * Removed brasero-cdrkit from desktop-recommends
+  * Removed brltty from cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Removed colord from cloudtop, core, desktop
+  * Removed crda from cloudtop, core, desktop
+  * Removed dconf-cli from cloudtop, core, desktop
+  * Removed dialog from cloudtop, core, desktop
+  * Removed ethtool from cloudtop, core, desktop
+  * Removed exfat-utils from cloudtop, core, desktop
+  * Removed gdisk from cloudtop, core, desktop
+  * Removed gstreamer1.0-tools from cloudtop, core, desktop
+  * Removed gstreamer1.0-x from cloudtop, core, desktop
+  * Removed gvfs from cloudtop, core, desktop
+  * Removed gvfs-backends from cloudtop, core, desktop
+  * Removed hwdata from cloudtop, core, desktop
+  * Removed iproute from cloudtop, core, desktop
+  * Removed iputils-arping from cloudtop, core, desktop
+  * Removed iso-codes from cloudtop, core, desktop
+  * Removed iw from cloudtop, core, desktop
+  * Removed libbdplus0 from desktop
+  * Removed libfile-mimeinfo-perl from cloudtop, core, desktop
+  * Removed libnet-dbus-perl from cloudtop, core, desktop
+  * Removed libpaper-utils from cloudtop, core, desktop
+  * Removed libpurple-bin from cloudtop-recommends, desktop-recommends
+  * Removed librsvg2-common from cloudtop, core, desktop
+  * Removed libtxc-dxtn-s2tc0 from cloudtop, core, desktop
+  * Removed libx11-protocol-perl from cloudtop, core, desktop
+  * Removed mobile-broadband-provider-info from cloudtop, core, desktop
+  * Removed modemmanager from cloudtop, core, desktop
+  * Removed onboard-data from cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Removed pidgin-libnotify from cloudtop-recommends, desktop-
+    recommends
+  * Removed rtkit from cloudtop, core, desktop
+  * Removed samba-common-bin from cloudtop, core, desktop
+  * Removed syslinux-utils from cloudtop [amd64 i386], core [amd64
+    i386], desktop [amd64 i386]
+  * Removed system-config-printer-udev from cloudtop, core, desktop
+  * Removed toshset from cloudtop [amd64 i386], core [amd64 i386],
+    desktop [amd64 i386]
+  * Removed usb-modeswitch from cloudtop, core, desktop
+  * Removed vbetool from cloudtop [amd64 i386], core [amd64 i386],
+    desktop [amd64 i386]
+  * Removed x11-utils from cloudtop, core, desktop
+  * Removed x11-xserver-utils from cloudtop, core, desktop
+  * Removed xbitmaps from cloudtop, core, desktop
+  * Moved exfat-fuse to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved ffmpegthumbnailer to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved gvfs-fuse to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved ideviceinstaller to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved ifuse to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved libavahi-compat-libdnssd1 to cloudtop-recommends, core-
+    recommends, desktop-recommends
+  * Moved libbluray-bdj to desktop-recommends
+  * Moved libegl1-mesa-drivers to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved libimobiledevice-utils to cloudtop-recommends, core-
+    recommends, desktop-recommends
+  * Moved libplist-utils to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved lightdm to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved lightdm-gtk-greeter to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved mate-system-monitor to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved pinentry-gnome3 to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved pm-utils to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved sane-utils to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved sessioninstaller to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved smbclient to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved system-config-printer-gnome to cloudtop-recommends, core-
+    recommends, desktop-recommends
+  * Moved ubuntu-mate-lightdm-theme to cloudtop-recommends, core-
+    recommends, desktop-recommends
+  * Moved usbmuxd to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved xterm to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved yelp to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved zenity to cloudtop-recommends, core-recommends, desktop-
+    recommends
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 15 Jun 2016 00:52:40 +0100
+
+ubuntu-mate-meta (1.164) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Removed hddtemp from cloudtop, core, desktop
+  * Removed libgpod-common from cloudtop, core, desktop
+  * Moved libqt5libqgtk2 to cloudtop-recommends, core-recommends,
+    desktop-recommends
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 14 Jun 2016 09:33:34 +0100
+
+ubuntu-mate-meta (1.163) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added a11y-profile-manager to live
+  * Added gnupg-agent to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Added libgail-common to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Added pulseaudio to cloudtop, core, desktop
+  * Added qt-at-spi to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Added sni-qt to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Removed account-plugin-facebook from desktop-recommends
+  * Removed account-plugin-flickr from desktop-recommends
+  * Removed account-plugin-google from desktop-recommends
+  * Removed avahi-discover from cloudtop, core, desktop
+  * Removed avahi-dnsconfd from cloudtop, core, desktop
+  * Removed espeak from cloudtop, core, desktop
+  * Removed libaccount-plugin-generic-oauth from desktop-recommends
+  * Removed libaccount-plugin-google from desktop-recommends
+  * Removed pulseaudio-utils from cloudtop, core, desktop
+  * Removed xbrlapi from cloudtop, core, desktop
+  * Moved a11y-profile-manager-indicator to cloudtop-recommends, core-
+    recommends, desktop-recommends
+  * Moved avahi-autoipd to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved brltty to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved brltty-x11 to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved fonts-liberation to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved fonts-nanum to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved fonts-noto to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved fonts-noto-cjk to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved fonts-noto-mono to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved fonts-noto-unhinted to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved gnome-keyring to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved gucharmap to cloudtop-recommends [powerpc ppc64el s390x], core-
+    recommends [powerpc ppc64el s390x], desktop-recommends [powerpc
+    ppc64el s390x]
+  * Moved im-config to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved libnotify-bin to cloudtop [amd64 arm64 armhf i386], core
+    [amd64 arm64 armhf i386], desktop [amd64 arm64 armhf i386]
+  * Moved libpam-gnome-keyring to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved libproxy1-plugin-gsettings to cloudtop-recommends, core-
+    recommends, desktop-recommends
+  * Moved libproxy1-plugin-networkmanager to cloudtop-recommends, core-
+    recommends, desktop-recommends
+  * Moved libwmf0.2-7-gtk to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved mate-accessibility-profiles to cloudtop-recommends, core-
+    recommends, desktop-recommends
+  * Moved network-manager to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved network-manager-gnome to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved plymouth-theme-ubuntu-mate-logo to cloudtop-recommends, core-
+    recommends, desktop-recommends
+  * Moved plymouth-theme-ubuntu-mate-text to cloudtop-recommends, core-
+    recommends, desktop-recommends
+  * Moved pulseaudio-module-bluetooth to cloudtop-recommends, core-
+    recommends, desktop-recommends
+  * Moved pulseaudio-module-x11 to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved python3-aptdaemon.pkcompat to cloudtop-recommends, core-
+    recommends, desktop-recommends
+  * Moved seahorse to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved speech-dispatcher to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved xcursor-themes to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved xdg-utils to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved xul-ext-ubufox to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved yelp to cloudtop, core, desktop
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 13 Jun 2016 16:16:51 +0100
+
+ubuntu-mate-meta (1.162) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Removed indicator-session from live
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 13 Jun 2016 10:14:59 +0100
+
+ubuntu-mate-meta (1.161) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added apport to core-recommends
+  * Added apport-gtk to core-recommends
+  * Added apport-symptoms to core-recommends
+  * Added blueman to cloudtop-recommends, core-recommends
+  * Added exfat-fuse to cloudtop, core
+  * Added exfat-utils to cloudtop, core
+  * Added gdb to cloudtop-recommends, core-recommends
+  * Added ideviceinstaller to cloudtop, core
+  * Added ifuse to cloudtop, core
+  * Added libgpod-common to cloudtop, core
+  * Added libimobiledevice-utils to cloudtop, core
+  * Added libmtp-runtime to cloudtop, core
+  * Added libplist-utils to cloudtop, core
+  * Added lightdm-gtk-greeter-settings to cloudtop-recommends, core-
+    recommends
+  * Added mate-session-manager to cloudtop, core, desktop
+  * Added usbmuxd to cloudtop, core
+  * Added whoopsie to core-recommends
+  * Moved account-plugin-facebook to desktop-recommends
+  * Moved account-plugin-flickr to desktop-recommends
+  * Moved account-plugin-google to desktop-recommends
+  * Moved apport to cloudtop-recommends, desktop-recommends
+  * Moved apport-gtk to cloudtop-recommends, desktop-recommends
+  * Moved apport-symptoms to cloudtop-recommends, desktop-recommends
+  * Moved blueman to desktop-recommends
+  * Moved brasero to desktop-recommends
+  * Moved brasero-cdrkit to desktop-recommends
+  * Moved cheese to desktop-recommends
+  * Moved compiz to desktop-recommends [amd64 i386 powerpc ppc64el
+    s390x]
+  * Moved compiz-core to desktop-recommends [amd64 i386 powerpc ppc64el
+    s390x]
+  * Moved compiz-mate to desktop-recommends [amd64 i386 powerpc ppc64el
+    s390x]
+  * Moved compiz-plugins to desktop-recommends [amd64 i386 powerpc
+    ppc64el s390x]
+  * Moved compiz-plugins-default to desktop-recommends [amd64 i386
+    powerpc ppc64el s390x]
+  * Moved deja-dup to desktop-recommends
+  * Moved deja-dup-backend-cloudfiles to desktop-recommends
+  * Moved deja-dup-backend-gvfs to desktop-recommends
+  * Moved deja-dup-backend-s3 to desktop-recommends
+  * Moved deja-dup-caja to desktop-recommends
+  * Moved folder-color-caja to cloudtop-recommends, desktop-recommends
+  * Moved gdb to desktop-recommends
+  * Moved gksu to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved gnome-disk-utility to desktop-recommends
+  * Moved hexchat to cloudtop-recommends, desktop-recommends
+  * Moved libaccount-plugin-generic-oauth to desktop-recommends
+  * Moved libaccount-plugin-google to desktop-recommends
+  * Moved libpurple-bin to cloudtop-recommends, desktop-recommends
+  * Moved libreoffice-avmedia-backend-gstreamer to cloudtop-recommends,
+    desktop-recommends
+  * Moved libreoffice-calc to cloudtop-recommends, desktop-recommends
+  * Moved libreoffice-gnome to cloudtop-recommends, desktop-recommends
+  * Moved libreoffice-impress to cloudtop-recommends, desktop-recommends
+  * Moved libreoffice-ogltrans to cloudtop-recommends, desktop-
+    recommends
+  * Moved libreoffice-pdfimport to cloudtop-recommends, desktop-
+    recommends
+  * Moved libreoffice-style-tango to cloudtop-recommends, desktop-
+    recommends
+  * Moved libreoffice-writer to cloudtop-recommends, desktop-recommends
+  * Moved lightdm-gtk-greeter-settings to desktop-recommends
+  * Moved mate-sensors-applet to cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Moved ntp to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved pidgin to cloudtop-recommends, desktop-recommends
+  * Moved pidgin-libnotify to cloudtop-recommends, desktop-recommends
+  * Moved pidgin-otr to cloudtop-recommends, desktop-recommends
+  * Moved plank to desktop-recommends
+  * Moved qt4-qtconfig to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Moved rhythmbox to desktop-recommends
+  * Moved rhythmbox-plugin-cdrecorder to desktop-recommends
+  * Moved rhythmbox-plugins to desktop-recommends
+  * Moved shotwell to desktop-recommends
+  * Moved synapse to cloudtop-recommends, desktop-recommends
+  * Moved thunderbird to cloudtop-recommends, desktop-recommends
+  * Moved tlp to desktop-recommends
+  * Moved tlp-rdw to desktop-recommends
+  * Moved transmission-gtk to desktop-recommends
+  * Moved ubuntu-mate-welcome to cloudtop-recommends, desktop-recommends
+  * Moved usb-creator-gtk to desktop-recommends [amd64 i386]
+  * Moved vlc to cloudtop-recommends, desktop-recommends
+  * Moved vlc-plugin-notify to cloudtop-recommends, desktop-recommends
+  * Moved vlc-plugin-samba to cloudtop-recommends, desktop-recommends
+  * Moved whoopsie to cloudtop-recommends, desktop-recommends
+  * Moved xul-ext-calendar-timezones to desktop-recommends
+  * Moved xul-ext-gdata-provider to desktop-recommends
+  * Moved xul-ext-lightning to desktop-recommends
+
+ -- Martin Wimpress <code@flexion.org>  Sun, 12 Jun 2016 11:47:20 +0100
+
+ubuntu-mate-meta (1.160) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Removed indicator-keyboard from live
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 11 Jun 2016 11:49:32 +0100
+
+ubuntu-mate-meta (1.159) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Moved atril to cloudtop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], core-recommends [arm64 armhf i386 powerpc ppc64el s390x],
+    desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved caja-gksu to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved caja-open-terminal to cloudtop-recommends [arm64 armhf i386
+    powerpc ppc64el s390x], core-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x]
+  * Moved caja-sendto to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved caja-wallpaper to cloudtop-recommends [arm64 armhf i386
+    powerpc ppc64el s390x], core-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x]
+  * Moved dconf-editor to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved engrampa to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved eom to cloudtop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], core-recommends [arm64 armhf i386 powerpc ppc64el s390x],
+    desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved firefox to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved fonts-opendyslexic to cloudtop-recommends [arm64 armhf i386
+    powerpc ppc64el s390x], core-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x]
+  * Moved galculator to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved gdebi to cloudtop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], core-recommends [arm64 armhf i386 powerpc ppc64el s390x],
+    desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved gnome-orca to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved gnome-system-tools to cloudtop-recommends [arm64 armhf i386
+    powerpc ppc64el s390x], core-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x]
+  * Moved gufw to cloudtop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], core-recommends [arm64 armhf i386 powerpc ppc64el s390x],
+    desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved inxi to cloudtop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], core-recommends [arm64 armhf i386 powerpc ppc64el s390x],
+    desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved libtopmenu-client-gtk2-0 to cloudtop-recommends [arm64 armhf
+    i386 powerpc ppc64el s390x], core-recommends [arm64 armhf i386
+    powerpc ppc64el s390x], desktop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x]
+  * Moved libtopmenu-client-gtk3-0 to cloudtop-recommends [arm64 armhf
+    i386 powerpc ppc64el s390x], core-recommends [arm64 armhf i386
+    powerpc ppc64el s390x], desktop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x]
+  * Moved libtopmenu-server-gtk2-0 to cloudtop-recommends [arm64 armhf
+    i386 powerpc ppc64el s390x], core-recommends [arm64 armhf i386
+    powerpc ppc64el s390x], desktop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x]
+  * Moved libtopmenu-server-gtk3-0 to cloudtop-recommends [arm64 armhf
+    i386 powerpc ppc64el s390x], core-recommends [arm64 armhf i386
+    powerpc ppc64el s390x], desktop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x]
+  * Moved mate-applet-topmenu to cloudtop-recommends [arm64 armhf i386
+    powerpc ppc64el s390x], core-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x]
+  * Moved mate-icon-theme-faenza to cloudtop-recommends [arm64 armhf
+    i386 powerpc ppc64el s390x], core-recommends [arm64 armhf i386
+    powerpc ppc64el s390x], desktop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x]
+  * Moved mate-menu to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved mate-netbook to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved mate-optimus to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved mate-tweak to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved mate-user-guide to cloudtop-recommends [arm64 armhf i386
+    powerpc ppc64el s390x], core-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x]
+  * Moved network-manager-openvpn-gnome to cloudtop-recommends [arm64
+    armhf i386 powerpc ppc64el s390x], core-recommends [arm64 armhf i386
+    powerpc ppc64el s390x], desktop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x]
+  * Moved onboard to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved onboard-data to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved pluma to cloudtop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], core-recommends [arm64 armhf i386 powerpc ppc64el s390x],
+    desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved ppa-purge to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved simple-scan to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved tilda to cloudtop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], core-recommends [arm64 armhf i386 powerpc ppc64el s390x],
+    desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved topmenu-gtk-common to cloudtop-recommends [arm64 armhf i386
+    powerpc ppc64el s390x], core-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x]
+  * Moved topmenu-gtk2 to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved topmenu-gtk3 to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved ttf-tiresias to cloudtop-recommends [arm64 armhf i386 powerpc
+    ppc64el s390x], core-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved xzoom to cloudtop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], core-recommends [arm64 armhf i386 powerpc ppc64el s390x],
+    desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+  * Moved yelp to cloudtop-recommends [arm64 armhf i386 powerpc ppc64el
+    s390x], core-recommends [arm64 armhf i386 powerpc ppc64el s390x],
+    desktop-recommends [arm64 armhf i386 powerpc ppc64el s390x]
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 10 Jun 2016 17:05:52 +0100
+
+ubuntu-mate-meta (1.158) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added acpid to cloudtop [arm64 armhf powerpc ppc64el], core [arm64
+    armhf powerpc ppc64el], desktop [arm64 armhf powerpc ppc64el]
+  * Added indicator-keyboard to live
+  * Added network-manager-openvpn-gnome to cloudtop, core, desktop
+  * Added ttf-tiresias to cloudtop, core, desktop
+  * Added unattended-upgrades to cloudtop, core, desktop
+  * Added vlc-plugin-samba to cloudtop, desktop
+  * Removed compiz from desktop [arm64]
+  * Removed compiz-core from desktop [arm64]
+  * Removed compiz-mate from desktop [arm64]
+  * Removed compiz-plugins from desktop [arm64]
+  * Removed compiz-plugins-default from desktop [arm64]
+  * Removed grub-pc from live [amd64]
+  * Removed grub2-themes-ubuntu-mate from cloudtop [s390x], core
+    [s390x], desktop [s390x]
+  * Removed network-manager-pptp-gnome from cloudtop, core, desktop
+
+ -- Martin Wimpress <code@flexion.org>  Thu, 09 Jun 2016 13:11:13 +0100
+
+ubuntu-mate-meta (1.157) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ubuntu-mate-libreoffice-draw-icons from desktop
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 07 Jun 2016 12:27:16 +0100
+
+ubuntu-mate-meta (1.156) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added mate-menu to cloudtop, core, desktop
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 07 Jun 2016 10:11:41 +0100
+
+ubuntu-mate-meta (1.155) yakkety; urgency=medium
+
+  * Refreshed dependencies
+  * Added indicator-application to cloudtop, core, desktop
+  * Added indicator-sound to cloudtop, core, desktop
+  * Added libreoffice-style-tango to cloudtop, desktop
+  * Added pinentry-gnome3 to cloudtop, core, desktop
+  * Removed indicator-application from live
+  * Removed indicator-application-gtk2 from cloudtop, core, desktop
+  * Removed indicator-sound from live
+  * Removed indicator-sound-gtk2 from cloudtop [amd64 arm64 armhf i386
+    powerpc ppc64el], core [amd64 arm64 armhf i386 powerpc ppc64el],
+    desktop [amd64 arm64 armhf i386 powerpc ppc64el]
+  * Removed libreoffice-style-human from cloudtop, desktop
+  * Removed mate-dock-applet from desktop
+  * Removed mate-gnome-main-menu-applet from cloudtop, core, desktop
+  * Removed mate-menu from cloudtop, core, desktop
+  * Removed mate-netspeed from cloudtop, core, desktop
+  * Removed pinentry-gtk2 from cloudtop, core, desktop
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 17 May 2016 23:49:43 +0100
+
+ubuntu-mate-meta (1.154) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added fwupdate-signed to cloudtop-recommends [amd64 arm64 armhf
+    i386], core-recommends [amd64 arm64 armhf i386], desktop-recommends
+    [amd64 arm64 armhf i386]
+  * Moved snapd to cloudtop-recommends, core-recommends, desktop-
+    recommends
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Tue, 19 Apr 2016 11:49:53 -0600
+
+ubuntu-mate-meta (1.153) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added snapd to cloudtop, core, desktop
+  * Removed a11y-profile-manager from live
+  * Removed ubuntu-snappy-cli from cloudtop, core, desktop
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Wed, 13 Apr 2016 23:05:25 -0600
+
+ubuntu-mate-meta (1.152) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added a11y-profile-manager to live
+  * Added a11y-profile-manager-indicator to cloudtop, core, desktop
+  * Added mate-accessibility-profiles to cloudtop, core, desktop
+    (LP: #1546317)
+
+ -- Luke Yelavich <themuso@ubuntu.com>  Thu, 07 Apr 2016 06:36:24 +1000
+
+ubuntu-mate-meta (1.151) xenial; urgency=medium
+
+  * Refreshed dependencies (LP: #1565709)
+  * Added ubuntu-snappy-cli to cloudtop, core, desktop
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Wed, 06 Apr 2016 06:23:03 -0600
+
+ubuntu-mate-meta (1.150) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added fwupd to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Removed libpam-systemd from cloudtop, core, desktop
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Sun, 03 Apr 2016 02:12:08 -0600
+
+ubuntu-mate-meta (1.149) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added accountsservice to cloudtop, desktop
+  * Added acpid to cloudtop [amd64 i386 s390x], desktop [amd64 i386
+    s390x]
+  * Added apturl to cloudtop, desktop
+  * Added at-spi2-core to cloudtop, desktop
+  * Added atril to cloudtop, desktop
+  * Added avahi-autoipd to cloudtop, desktop
+  * Added avahi-discover to cloudtop, desktop
+  * Added avahi-dnsconfd to cloudtop, desktop
+  * Added avahi-utils to cloudtop, desktop
+  * Added brltty to cloudtop, desktop
+  * Added brltty-x11 to cloudtop, desktop
+  * Added caja to cloudtop, desktop
+  * Added caja-gksu to cloudtop, desktop
+  * Added caja-open-terminal to cloudtop, desktop
+  * Added caja-sendto to cloudtop, desktop
+  * Added caja-wallpaper to cloudtop, desktop
+  * Added colord to cloudtop, desktop
+  * Added crda to cloudtop, desktop
+  * Added cups-browsed to cloudtop, desktop
+  * Added cups-core-drivers to cloudtop, desktop
+  * Added cups-filters-core-drivers to cloudtop, desktop
+  * Added cups-pk-helper to cloudtop, desktop
+  * Added cups-ppdc to cloudtop, desktop
+  * Added dconf-cli to cloudtop, desktop
+  * Added dconf-editor to cloudtop, desktop
+  * Added dialog to cloudtop, desktop
+  * Added dmz-cursor-theme to cloudtop, desktop
+  * Added engrampa to cloudtop, desktop
+  * Added eom to cloudtop, desktop
+  * Added espeak to cloudtop, desktop
+  * Added ethtool to cloudtop, desktop
+  * Added ffmpegthumbnailer to cloudtop, desktop
+  * Added firefox to cloudtop, desktop
+  * Added fonts-liberation to cloudtop, desktop
+  * Added fonts-nanum to cloudtop, desktop
+  * Added fonts-noto to cloudtop, desktop
+  * Added fonts-noto-cjk to cloudtop, desktop
+  * Added fonts-noto-mono to cloudtop, desktop
+  * Added fonts-noto-unhinted to cloudtop, desktop
+  * Added fonts-opendyslexic to cloudtop, desktop
+  * Added galculator to cloudtop, desktop
+  * Added gdebi to cloudtop, desktop
+  * Added gdisk to cloudtop, desktop
+  * Added ghostscript to cloudtop, desktop
+  * Added gksu to cloudtop, desktop
+  * Added gnome-keyring to cloudtop, desktop
+  * Added gnome-orca to cloudtop, desktop
+  * Added gnome-session-canberra to cloudtop, desktop
+  * Added gnome-system-tools to cloudtop, desktop
+  * Added grub2-themes-ubuntu-mate to cloudtop [amd64 i386 s390x],
+    desktop [amd64 i386 s390x]
+  * Added gstreamer1.0-alsa to cloudtop, desktop
+  * Added gstreamer1.0-plugins-base to cloudtop, desktop
+  * Added gstreamer1.0-plugins-good to cloudtop, desktop
+  * Added gstreamer1.0-pulseaudio to cloudtop, desktop
+  * Added gstreamer1.0-tools to cloudtop, desktop
+  * Added gstreamer1.0-x to cloudtop, desktop
+  * Added gucharmap to cloudtop, desktop
+  * Added gufw to cloudtop, desktop
+  * Added gvfs to cloudtop, desktop
+  * Added gvfs-backends to cloudtop, desktop
+  * Added gvfs-fuse to cloudtop, desktop
+  * Added hddtemp to cloudtop, desktop
+  * Added hwdata to cloudtop, desktop
+  * Added im-config to cloudtop, desktop
+  * Added indicator-application-gtk2 to cloudtop, desktop
+  * Added indicator-sound-gtk2 to cloudtop [amd64 arm64 armhf i386
+    powerpc ppc64el], desktop [amd64 arm64 armhf i386 powerpc ppc64el]
+  * Added inxi to cloudtop, desktop
+  * Added iproute to cloudtop, desktop
+  * Added iputils-arping to cloudtop, desktop
+  * Added iso-codes to cloudtop, desktop
+  * Added iw to cloudtop, desktop
+  * Added language-selector-gnome to cloudtop, desktop
+  * Added libavahi-compat-libdnssd1 to cloudtop, desktop
+  * Added libcanberra-gtk-module to cloudtop, desktop
+  * Added libcanberra-gtk3-module to cloudtop, desktop
+  * Added libcanberra-pulse to cloudtop, desktop
+  * Added libegl1-mesa-drivers to cloudtop, desktop
+  * Added libfile-mimeinfo-perl to cloudtop, desktop
+  * Added libnet-dbus-perl to cloudtop, desktop
+  * Added libnotify-bin to cloudtop, desktop
+  * Added libp11-kit-gnome-keyring to cloudtop, desktop
+  * Added libpam-gnome-keyring to cloudtop, desktop
+  * Added libpaper-utils to cloudtop, desktop
+  * Added libproxy1-plugin-gsettings to cloudtop, desktop
+  * Added libproxy1-plugin-networkmanager to cloudtop, desktop
+  * Added libqt5libqgtk2 to cloudtop, desktop
+  * Added librsvg2-common to cloudtop, desktop
+  * Added libtopmenu-client-gtk2-0 to cloudtop, desktop
+  * Added libtopmenu-client-gtk3-0 to cloudtop, desktop
+  * Added libtopmenu-server-gtk2-0 to cloudtop, desktop
+  * Added libtopmenu-server-gtk3-0 to cloudtop, desktop
+  * Added libtxc-dxtn-s2tc0 to cloudtop, desktop
+  * Added libwmf0.2-7-gtk to cloudtop, desktop
+  * Added libx11-protocol-perl to cloudtop, desktop
+  * Added lightdm to cloudtop, desktop
+  * Added lightdm-gtk-greeter to cloudtop, desktop
+  * Added marco to cloudtop, desktop
+  * Added mate-applet-topmenu to cloudtop, desktop
+  * Added mate-applets to cloudtop, desktop
+  * Added mate-desktop-environment-core to cloudtop, desktop
+  * Added mate-gnome-main-menu-applet to cloudtop, desktop
+  * Added mate-icon-theme to cloudtop, desktop
+  * Added mate-icon-theme-faenza to cloudtop, desktop
+  * Added mate-indicator-applet to cloudtop, desktop
+  * Added mate-media to cloudtop, desktop
+  * Added mate-menu to cloudtop, desktop
+  * Added mate-menus to cloudtop, desktop
+  * Added mate-netbook to cloudtop, desktop
+  * Added mate-netspeed to cloudtop, desktop
+  * Added mate-notification-daemon to cloudtop, desktop
+  * Added mate-optimus to cloudtop, desktop
+  * Added mate-polkit to cloudtop, desktop
+  * Added mate-power-manager to cloudtop, desktop
+  * Added mate-screensaver to cloudtop, desktop
+  * Added mate-sensors-applet to cloudtop, desktop
+  * Added mate-settings-daemon to cloudtop, desktop
+  * Added mate-system-monitor to cloudtop, desktop
+  * Added mate-terminal to cloudtop, desktop
+  * Added mate-themes to cloudtop, desktop
+  * Added mate-tweak to cloudtop, desktop
+  * Added mate-user-guide to cloudtop, desktop
+  * Added mate-utils to cloudtop, desktop
+  * Added mobile-broadband-provider-info to cloudtop, desktop
+  * Added modemmanager to cloudtop, desktop
+  * Added mozo to cloudtop, desktop
+  * Added network-manager to cloudtop, desktop
+  * Added network-manager-gnome to cloudtop, desktop
+  * Added network-manager-pptp-gnome to cloudtop, desktop
+  * Added ntp to cloudtop, desktop
+  * Added onboard to cloudtop, desktop
+  * Added onboard-data to cloudtop, desktop
+  * Added pinentry-gtk2 to cloudtop, desktop
+  * Added pluma to cloudtop, desktop
+  * Added plymouth-theme-ubuntu-mate-logo to cloudtop, desktop
+  * Added plymouth-theme-ubuntu-mate-text to cloudtop, desktop
+  * Added pm-utils to cloudtop, desktop
+  * Added ppa-purge to cloudtop, desktop
+  * Added printer-driver-gutenprint to cloudtop, desktop
+  * Added printer-driver-hpcups to cloudtop, desktop
+  * Added printer-driver-postscript-hp to cloudtop, desktop
+  * Added pulseaudio-module-bluetooth to cloudtop, desktop
+  * Added pulseaudio-module-x11 to cloudtop, desktop
+  * Added pulseaudio-utils to cloudtop, desktop
+  * Added python3-aptdaemon to cloudtop, desktop
+  * Added python3-aptdaemon.gtk3widgets to cloudtop, desktop
+  * Added python3-aptdaemon.pkcompat to cloudtop, desktop
+  * Added qt4-qtconfig to cloudtop, desktop
+  * Added rtkit to cloudtop, desktop
+  * Added samba-common-bin to cloudtop, desktop
+  * Added sane-utils to cloudtop, desktop
+  * Added seahorse to cloudtop, desktop
+  * Added sessioninstaller to cloudtop, desktop
+  * Added simple-scan to cloudtop, desktop
+  * Added smbclient to cloudtop, desktop
+  * Added software-properties-gtk to cloudtop, desktop
+  * Added speech-dispatcher to cloudtop, desktop
+  * Added syslinux-utils to cloudtop [amd64 i386], desktop [amd64 i386]
+  * Added system-config-printer-gnome to cloudtop, desktop
+  * Added system-config-printer-udev to cloudtop, desktop
+  * Added tilda to cloudtop, desktop
+  * Added topmenu-gtk-common to cloudtop, desktop
+  * Added topmenu-gtk2 to cloudtop, desktop
+  * Added topmenu-gtk3 to cloudtop, desktop
+  * Added toshset to cloudtop [amd64 i386], desktop [amd64 i386]
+  * Added ubuntu-mate-artwork to cloudtop, desktop
+  * Added ubuntu-mate-core to cloudtop, desktop
+  * Added ubuntu-mate-default-settings to cloudtop, desktop
+  * Added ubuntu-mate-lightdm-theme to cloudtop, desktop
+  * Added ubuntu-release-upgrader-gtk to cloudtop, desktop
+  * Added ubuntu-sounds to cloudtop, desktop
+  * Added unity-control-center-faces to cloudtop, desktop
+  * Added update-manager to cloudtop, desktop
+  * Added update-notifier to cloudtop, desktop
+  * Added usb-modeswitch to cloudtop, desktop
+  * Added vbetool to cloudtop [amd64 i386], desktop [amd64 i386]
+  * Added x11-utils to cloudtop, desktop
+  * Added x11-xserver-utils to cloudtop, desktop
+  * Added xbitmaps to cloudtop, desktop
+  * Added xbrlapi to cloudtop, desktop
+  * Added xcursor-themes to cloudtop, desktop
+  * Added xdg-user-dirs to cloudtop, desktop
+  * Added xdg-user-dirs-gtk to cloudtop, desktop
+  * Added xdg-utils to cloudtop, desktop
+  * Added xserver-xorg to cloudtop, desktop
+  * Added xserver-xorg-input-all to cloudtop, desktop
+  * Added xserver-xorg-video-all to cloudtop, desktop
+  * Added xterm to cloudtop, desktop
+  * Added xul-ext-ubufox to cloudtop, desktop
+  * Added xzoom to cloudtop, desktop
+  * Added yelp to cloudtop, desktop
+  * Added zenity to cloudtop, desktop
+
+  * LP: #1562756 LP: #1562376
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 30 Mar 2016 08:52:44 +0000
+
+ubuntu-mate-meta (1.148) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added fwupdate-signed to live [amd64 arm64 armhf i386]
+  * Added mokutil to live [amd64]
+  * Removed uvcdynctrl from desktop
+
+ -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Tue, 22 Mar 2016 10:04:31 -0400
+
+ubuntu-mate-meta (1.147) xenial; urgency=medium
+
+  * Refreshed dependencies (LP: #1558534)
+  * Added cheese to desktop
+  * Added fwupdate to cloudtop-recommends [amd64 arm64 armhf i386], core-
+    recommends [amd64 arm64 armhf i386], desktop-recommends [amd64 arm64
+    armhf i386]
+  * Added libqt5libqgtk2 to core
+  * Removed fonts-droid from live
+  * Removed guvcview from desktop
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Fri, 18 Mar 2016 16:54:06 +0100
+
+ubuntu-mate-meta (1.146) xenial; urgency=medium
+
+  * Refreshed dependencies (LP: #1554520)
+  * Added fonts-noto-mono to core
+  * Added libwmf0.2-7-gtk to core
+  * Added mate-dock-applet to desktop
+  * Added ppa-purge to core
+  * Added synapse to cloudtop, desktop
+  * Removed mate-dock-applet from core
+  * Removed ttf-indic-fonts-core from cloudtop-recommends, core-
+    recommends, desktop-recommends
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Wed, 09 Mar 2016 09:01:48 +0100
+
+ubuntu-mate-meta (1.145) xenial; urgency=medium
+
+  * Refreshed dependencies (LP: #1548334)
+  * Added fonts-droid to live [arm64 armhf powerpc ppc64el s390x]
+  * Added fonts-noto to core [arm64 armhf powerpc ppc64el s390x]
+  * Added fonts-noto-cjk to core [arm64 armhf powerpc ppc64el s390x]
+  * Added fonts-noto-unhinted to core [arm64 armhf powerpc ppc64el
+    s390x]
+  * Added libtopmenu-client-gtk2-0 to core [arm64 armhf powerpc ppc64el
+    s390x]
+  * Added libtopmenu-client-gtk3-0 to core [arm64 armhf powerpc ppc64el
+    s390x]
+  * Added libtopmenu-server-gtk2-0 to core [arm64 armhf powerpc ppc64el
+    s390x]
+  * Added libtopmenu-server-gtk3-0 to core [arm64 armhf powerpc ppc64el
+    s390x]
+  * Added mate-applet-topmenu to core [arm64 armhf powerpc ppc64el
+    s390x]
+  * Added mate-dock-applet to core [arm64 armhf powerpc ppc64el s390x]
+  * Added topmenu-gtk-common to core [arm64 armhf powerpc ppc64el s390x]
+  * Added topmenu-gtk2 to core [arm64 armhf powerpc ppc64el s390x]
+  * Added topmenu-gtk3 to core [arm64 armhf powerpc ppc64el s390x]
+  * Added ubuntu-mate-welcome to cloudtop [arm64 armhf powerpc ppc64el
+    s390x], desktop [arm64 armhf powerpc ppc64el s390x]
+  * Removed fonts-droid from core [arm64 armhf powerpc ppc64el s390x]
+  * Removed ubuntu-mate-welcome from core [arm64 armhf powerpc ppc64el
+    s390x]
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Mon, 22 Feb 2016 17:28:44 +0100
+
+ubuntu-mate-meta (1.144) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added folder-color-caja to cloudtop, desktop
+  * Added lightdm to core
+  * Added lightdm-gtk-greeter to core
+  * Added ubuntu-mate-libreoffice-draw-icons to desktop
+  * Added ubuntu-mate-lightdm-theme to core
+  * Added usb-creator-gtk to desktop [amd64 i386]
+  * Removed folder-color-caja from core
+  * Removed lightdm from desktop
+  * Removed lightdm-gtk-greeter from desktop
+  * Removed ubuntu-mate-lightdm-theme from desktop
+  * Removed usb-creator-gtk from core [amd64 i386]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 29 Jan 2016 03:01:12 -0700
+
+ubuntu-mate-meta (1.143) xenial; urgency=medium
+
+  * Refreshed dependencies (LP: #1537567)
+  * Added account-plugin-facebook to desktop
+  * Added account-plugin-flickr to desktop
+  * Added account-plugin-google to desktop
+  * Added gdb to desktop
+  * Added gstreamer1.0-plugins-base to core
+  * Added gstreamer1.0-plugins-good to core
+  * Added hddtemp to core
+  * Added iputils-arping to core
+  * Added libaccount-plugin-generic-oauth to desktop
+  * Added libaccount-plugin-google to desktop
+  * Added libbdplus0 to desktop
+  * Added libfile-mimeinfo-perl to core
+  * Added libnet-dbus-perl to core
+  * Added libreoffice-avmedia-backend-gstreamer to cloudtop, desktop
+  * Added libx11-protocol-perl to core
+  * Added python3-aptdaemon to core
+  * Added python3-aptdaemon.gtk3widgets to core
+  * Added vlc-plugin-notify to cloudtop, desktop
+  * Added x11-utils to core
+  * Added x11-xserver-utils to core
+  * Added xbrlapi to core
+  * Removed libreoffice-math from cloudtop, desktop
+  * Removed ubuntu-mate-libreoffice-draw-icons from cloudtop, desktop
+  * Removed ubuntu-mate-libreoffice-math-icons from cloudtop, desktop
+  * Moved apport to cloudtop, desktop
+  * Moved apport-gtk to cloudtop, desktop
+  * Moved apport-symptoms to cloudtop, desktop
+  * Moved whoopsie to cloudtop, desktop
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Mon, 25 Jan 2016 11:36:06 +0200
+
+ubuntu-mate-meta (1.142) xenial; urgency=medium
+
+  * Refreshed dependencies (LP: #1535910)
+  * Added firefox-locale-de to live
+  * Added firefox-locale-es to live
+  * Added firefox-locale-fr to live
+  * Added firefox-locale-it to live
+  * Added firefox-locale-pt to live
+  * Added firefox-locale-ru to live
+  * Added firefox-locale-zh-hans to live
+  * Added fonts-arphic-ukai to live
+  * Added fonts-arphic-uming to live
+  * Added hunspell-de-at to live
+  * Added hunspell-de-ch to live
+  * Added hunspell-de-de to live
+  * Added hunspell-en-ca to live
+  * Added hunspell-fr to live
+  * Added hunspell-ru to live
+  * Added hyphen-de to live
+  * Added hyphen-en-us to live
+  * Added hyphen-fr to live
+  * Added hyphen-it to live
+  * Added hyphen-ru to live
+  * Added inxi to core
+  * Added language-pack-de to live
+  * Added language-pack-fr to live [powerpc]
+  * Added language-pack-gnome-de to live
+  * Added language-pack-gnome-en to live
+  * Added language-pack-gnome-es to live
+  * Added language-pack-gnome-fr to live
+  * Added language-pack-gnome-it to live
+  * Added language-pack-gnome-pt to live
+  * Added language-pack-gnome-ru to live
+  * Added language-pack-gnome-zh-hans to live
+  * Added language-pack-it to live
+  * Added language-pack-ru to live
+  * Added language-pack-zh-hans to live [powerpc]
+  * Added libaacs0 to desktop
+  * Added libbluray-bdj to desktop
+  * Added libbluray-bin to desktop
+  * Added libbluray1 to desktop
+  * Added libdvdnav4 to desktop
+  * Added libdvdread4 to desktop
+  * Added libreoffice-calc to cloudtop [arm64 ppc64el], desktop [arm64
+    ppc64el]
+  * Added libreoffice-gnome to cloudtop [arm64 ppc64el], desktop [arm64
+    ppc64el]
+  * Added libreoffice-help-de to live
+  * Added libreoffice-help-en-gb to live
+  * Added libreoffice-help-en-us to live
+  * Added libreoffice-help-es to live
+  * Added libreoffice-help-fr to live
+  * Added libreoffice-help-it to live
+  * Added libreoffice-help-pt to live
+  * Added libreoffice-help-pt-br to live
+  * Added libreoffice-help-ru to live
+  * Added libreoffice-help-zh-cn to live
+  * Added libreoffice-help-zh-tw to live
+  * Added libreoffice-impress to cloudtop [arm64 ppc64el], desktop
+    [arm64 ppc64el]
+  * Added libreoffice-l10n-de to live
+  * Added libreoffice-l10n-en-gb to live
+  * Added libreoffice-l10n-en-za to live
+  * Added libreoffice-l10n-es to live
+  * Added libreoffice-l10n-fr to live
+  * Added libreoffice-l10n-it to live
+  * Added libreoffice-l10n-pt to live
+  * Added libreoffice-l10n-pt-br to live
+  * Added libreoffice-l10n-ru to live
+  * Added libreoffice-l10n-zh-cn to live
+  * Added libreoffice-l10n-zh-tw to live
+  * Added libreoffice-math to cloudtop [arm64 ppc64el], desktop [arm64
+    ppc64el]
+  * Added libreoffice-ogltrans to cloudtop [arm64 ppc64el], desktop
+    [arm64 ppc64el]
+  * Added libreoffice-pdfimport to cloudtop [arm64 ppc64el], desktop
+    [arm64 ppc64el]
+  * Added libreoffice-style-human to cloudtop [arm64 ppc64el], desktop
+    [arm64 ppc64el]
+  * Added libreoffice-writer to cloudtop [arm64 ppc64el], desktop [arm64
+    ppc64el]
+  * Added myspell-en-au to live
+  * Added myspell-en-gb to live
+  * Added myspell-en-za to live
+  * Added myspell-es to live
+  * Added myspell-it to live
+  * Added myspell-pt to live
+  * Added mythes-de to live
+  * Added mythes-de-ch to live
+  * Added mythes-en-au to live
+  * Added mythes-en-us to live
+  * Added mythes-fr to live
+  * Added mythes-it to live
+  * Added mythes-ru to live
+  * Added openoffice.org-hyphenation to live
+  * Added seahorse to core
+  * Added thunderbird-locale-de to live
+  * Added thunderbird-locale-en to live
+  * Added thunderbird-locale-en-gb to live
+  * Added thunderbird-locale-en-us to live
+  * Added thunderbird-locale-es to live
+  * Added thunderbird-locale-es-ar to live
+  * Added thunderbird-locale-es-es to live
+  * Added thunderbird-locale-fr to live
+  * Added thunderbird-locale-it to live
+  * Added thunderbird-locale-pt to live
+  * Added thunderbird-locale-pt-br to live
+  * Added thunderbird-locale-pt-pt to live
+  * Added thunderbird-locale-ru to live
+  * Added thunderbird-locale-zh-cn to live
+  * Added thunderbird-locale-zh-hans to live
+  * Added thunderbird-locale-zh-tw to live
+  * Added ubuntu-mate-libreoffice-draw-icons to cloudtop [arm64
+    ppc64el], desktop [arm64 ppc64el]
+  * Added ubuntu-mate-libreoffice-math-icons to cloudtop [arm64
+    ppc64el], desktop [arm64 ppc64el]
+  * Added unity-control-center-faces to core
+  * Added vlc to cloudtop [s390x], desktop [s390x]
+  * Added wbrazilian to live
+  * Added wbritish to live
+  * Added wfrench to live
+  * Added witalian to live
+  * Added wngerman to live
+  * Added wogerman to live
+  * Added wportuguese to live
+  * Added wspanish to live
+  * Added wswiss to live
+  * Added xterm to core
+  * Removed inxi from desktop
+  * Removed language-pack-bn from live [amd64 arm64 armhf i386 ppc64el
+    s390x]
+  * Removed language-pack-hi from live [amd64 arm64 armhf i386 ppc64el
+    s390x]
+  * Removed language-pack-ja from live [amd64 arm64 armhf i386 ppc64el
+    s390x]
+  * Removed libreoffice-avmedia-backend-gstreamer from cloudtop [amd64
+    armhf i386 powerpc s390x], desktop [amd64 armhf i386 powerpc s390x]
+  * Removed network-manager-pptp from core
+  * Removed seahorse from cloudtop, desktop
+  * Removed yuyo-gtk-theme from core
+  * Moved apport to cloudtop-recommends, desktop-recommends
+  * Moved apport-gtk to cloudtop-recommends, desktop-recommends
+  * Moved apport-symptoms to cloudtop-recommends, desktop-recommends
+  * Moved whoopsie to cloudtop-recommends, desktop-recommends
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 22 Jan 2016 12:12:37 +0200
+
+ubuntu-mate-meta (1.141) xenial; urgency=high
+
+  * Refreshed dependencies
+  * Removed gnome-control-center-shared-data from core
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Mon, 04 Jan 2016 15:21:40 +0000
+
+ubuntu-mate-meta (1.140) xenial; urgency=medium
+
+  * Refreshed dependencies
+  * Added brasero to desktop [s390x]
+  * Added brasero-cdrkit to desktop [s390x]
+  * Added deja-dup to desktop [s390x]
+  * Added ffmpegthumbnailer to core [s390x]
+  * Added gparted to live
+  * Added guvcview to desktop [s390x]
+  * Added indicator-applet to live [s390x]
+  * Added indicator-application to live [s390x]
+  * Added indicator-application-gtk2 to core [s390x]
+  * Added kerneloops-daemon to cloudtop-recommends [s390x], core-
+    recommends [s390x], desktop-recommends [s390x]
+  * Added libgpod-common to desktop [s390x]
+  * Added mate-gnome-main-menu-applet to core [s390x]
+  * Added mate-polkit to core [s390x]
+  * Added mate-settings-daemon to core [s390x]
+  * Added network-manager-gnome to core [s390x]
+  * Added network-manager-pptp to core [s390x]
+  * Added network-manager-pptp-gnome to core [s390x]
+  * Added rhythmbox to desktop [s390x]
+  * Added rhythmbox-plugin-cdrecorder to desktop [s390x]
+  * Added rhythmbox-plugins to desktop [s390x]
+  * Added shotwell to desktop [s390x]
+  * Added transmission-gtk to desktop [s390x]
+  * Added update-notifier to core [s390x]
+  * Removed gnome-packagekit from core [s390x]
+  * Removed gstreamer1.0-libav from core [amd64 arm64 armhf i386 powerpc
+    ppc64el]
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Sat, 02 Jan 2016 16:15:44 +0000
+
+ubuntu-mate-meta (1.139) xenial; urgency=medium
+
+  * update.cfg: add s390x. Derp.
+
+ -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Wed, 23 Dec 2015 21:45:21 -0500
+
+ubuntu-mate-meta (1.138) xenial; urgency=medium
+
+  * debian/control: removed Vcs-Bzr/Vcs-Browser which pointed to an inexistant
+    location.
+  * update.cfg: target xenial.
+  * Refreshed dependencies
+  * Added gnome-disk-utility to desktop
+  * Added gstreamer1.0-libav to core
+  * Removed gparted from live
+  * Removed indicator-keyboard from live
+
+ -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Wed, 23 Dec 2015 19:06:21 -0500
+
+ubuntu-mate-meta (1.137) wily; urgency=medium
+
+  * Refreshed dependencies (LP: #1505505)
+  * Removed vlc-plugin-pulse from cloudtop, desktop
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Wed, 21 Oct 2015 12:11:19 +0100
+
+ubuntu-mate-meta (1.136) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Removed compiz from desktop [armhf]
+  * Removed compiz-core from desktop [armhf]
+  * Removed compiz-mate from desktop [armhf]
+  * Removed compiz-plugins from desktop [armhf]
+  * Removed compiz-plugins-default from desktop [armhf]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Mon, 19 Oct 2015 10:48:43 +0100
+
+ubuntu-mate-meta (1.135) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Added fcitx-bin to live
+  * Removed fcitx-bin from core
+
+ -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Mon, 12 Oct 2015 17:53:56 -0400
+
+ubuntu-mate-meta (1.134) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Added xul-ext-calendar-timezones to desktop (LP: #1497880)
+  * Added xul-ext-gdata-provider to desktop
+  * Added xul-ext-lightning to desktop
+
+ -- Didier Roche <didrocks@ubuntu.com>  Mon, 21 Sep 2015 13:46:25 +0200
+
+ubuntu-mate-meta (1.133) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Added fcitx-bin to core
+  * Added librsvg2-common to core
+  * Removed fcitx from core
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Mon, 14 Sep 2015 12:19:37 -0600
+
+ubuntu-mate-meta (1.132) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Added caja-wallpaper to core
+  * Added gstreamer1.0-tools to core
+
+ -- Didier Roche <didrocks@ubuntu.com>  Thu, 27 Aug 2015 10:45:58 +0200
+
+ubuntu-mate-meta (1.131) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Added deja-dup-caja to desktop
+  * Added fcitx to core
+  * Added im-config to core
+  * Added mate-user-guide to core
+
+ -- Didier Roche <didrocks@ubuntu.com>  Wed, 26 Aug 2015 10:03:05 +0200
+
+ubuntu-mate-meta (1.130) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Added mate-media to core
+  * Added mate-settings-daemon to core
+  * Added ubiquity-slideshow-ubuntu-mate to live [powerpc]
+  * Added ubuntu-mate-welcome to core [powerpc]
+  * Removed mate-media-pulse from core
+  * Removed mate-settings-daemon-pulse from core
+
+ -- Iain Lane <iain.lane@canonical.com>  Tue, 25 Aug 2015 11:21:00 +0100
+
+ubuntu-mate-meta (1.129) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Removed libxp6 from cloudtop [powerpc ppc64el], core [powerpc
+    ppc64el], desktop [powerpc ppc64el]
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Wed, 19 Aug 2015 07:01:43 +0200
+
+ubuntu-mate-meta (1.128) wily; urgency=medium
+
+  * Move ubuntu-mate-core's ${germinate:Recommends} from
+    Depends to Recommends to get slightly saner behaviour.
+  * Refreshed dependencies
+  * Added ffmpegthumbnailer to core
+  * Added mate-optimus to core
+  * Added pinentry-gtk2 to core (LP: #1473952)
+  * Added yaboot to live [powerpc]
+  * Removed bluez-alsa from cloudtop-recommends, core-recommends,
+    desktop-recommends
+  * Removed ubuntu-mate-welcome from core [powerpc]
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 14 Aug 2015 08:26:55 -0600
+
+ubuntu-mate-meta (1.127) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ubuntu-mate-libreoffice-draw-icons from cloudtop [arm64
+    ppc64el], desktop [arm64 ppc64el]
+  * Removed ubuntu-mate-libreoffice-math-icons from cloudtop [arm64
+    ppc64el], desktop [arm64 ppc64el]
+
+ -- Iain Lane <iain.lane@canonical.com>  Wed, 29 Jul 2015 10:37:12 +0100
+
+ubuntu-mate-meta (1.126) wily; urgency=medium
+
+  * Refreshed dependencies
+  * Added apport to cloudtop [arm64 armhf powerpc ppc64el], desktop
+    [arm64 armhf powerpc ppc64el]
+  * Added apport-gtk to cloudtop [arm64 armhf powerpc ppc64el], desktop
+    [arm64 armhf powerpc ppc64el]
+  * Added apport-symptoms to cloudtop [arm64 armhf powerpc ppc64el],
+    desktop [arm64 armhf powerpc ppc64el]
+  * Added gdebi to core [arm64 armhf powerpc ppc64el]
+  * Added ubuntu-mate-libreoffice-draw-icons to cloudtop [arm64 armhf
+    powerpc ppc64el], desktop [arm64 armhf powerpc ppc64el]
+  * Added ubuntu-mate-libreoffice-math-icons to cloudtop [arm64 armhf
+    powerpc ppc64el], desktop [arm64 armhf powerpc ppc64el]
+  * Added ubuntu-mate-welcome to core [arm64 armhf powerpc ppc64el]
+  * Added whoopsie to cloudtop [arm64 armhf powerpc ppc64el], desktop
+    [arm64 armhf powerpc ppc64el]
+  * Removed app-install-data-partner from core [arm64 armhf powerpc
+    ppc64el]
+  * Removed apport from core [arm64 armhf powerpc ppc64el]
+  * Removed apport-gtk from core [arm64 armhf powerpc ppc64el]
+  * Removed apport-symptoms from core [arm64 armhf powerpc ppc64el]
+  * Removed apt-xapian-index from core [arm64 armhf powerpc ppc64el]
+  * Removed gstreamer0.10-alsa from core [arm64 armhf powerpc ppc64el]
+  * Removed gstreamer0.10-plugins-good from core [arm64 armhf powerpc
+    ppc64el]
+  * Removed gstreamer0.10-pulseaudio from core [arm64 armhf powerpc
+    ppc64el]
+  * Removed gstreamer1.0-plugins-good from core [arm64 armhf powerpc
+    ppc64el]
+  * Removed software-center from core [arm64 armhf powerpc ppc64el]
+  * Removed ubuntu-sso-client-qt from core [arm64 armhf powerpc ppc64el]
+  * Removed whoopsie from core [arm64 armhf powerpc ppc64el]
+
+ -- Iain Lane <iain.lane@canonical.com>  Tue, 28 Jul 2015 15:59:23 +0100
+
+ubuntu-mate-meta (1.125) wily; urgency=medium
+
+  * Switched to wily and refreshed dependencies
+  * Added app-install-data-partner to core
+  * Added apport to core
+  * Added apport-gtk to core
+  * Added apport-symptoms to core
+  * Added apt-xapian-index to core
+  * Added apturl to core
+  * Added at-spi2-core to core
+  * Added atril to core
+  * Added brltty to core
+  * Added brltty-x11 to core
+  * Added caja to core
+  * Added caja-gksu to core
+  * Added caja-open-terminal to core
+  * Added caja-sendto to core
+  * Added cups-browsed to core
+  * Added cups-core-drivers to core
+  * Added cups-filters-core-drivers to core
+  * Added cups-pk-helper to core
+  * Added cups-ppdc to core
+  * Added dconf-editor to core
+  * Added engrampa to core
+  * Added eom to core
+  * Added espeak to core
+  * Added firefox to core
+  * Added folder-color-caja to core
+  * Added galculator to core
+  * Added ghostscript to core
+  * Added gksu to core
+  * Added gnome-keyring to core
+  * Added gnome-orca to core
+  * Added gnome-system-tools to core
+  * Added gstreamer0.10-alsa to core
+  * Added gstreamer0.10-plugins-good to core
+  * Added gstreamer0.10-pulseaudio to core
+  * Added gstreamer1.0-alsa to core
+  * Added gstreamer1.0-plugins-good to core
+  * Added gstreamer1.0-pulseaudio to core
+  * Added gstreamer1.0-x to core
+  * Added gucharmap to core
+  * Added gufw to core
+  * Added gvfs to core
+  * Added gvfs-backends to core
+  * Added gvfs-fuse to core
+  * Added ideviceinstaller to desktop
+  * Added ifuse to desktop
+  * Added indicator-application-gtk2 to core
+  * Added indicator-sound-gtk2 to core
+  * Added inxi to desktop
+  * Added libimobiledevice-utils to desktop
+  * Added libp11-kit-gnome-keyring to core
+  * Added libpam-gnome-keyring to core
+  * Added libpaper-utils to core
+  * Added libplist-utils to desktop
+  * Added lightdm to desktop
+  * Added lightdm-gtk-greeter to desktop
+  * Added lightdm-gtk-greeter-settings to desktop
+  * Added marco to core
+  * Added mate-applets to core
+  * Added mate-icon-theme to core
+  * Added mate-icon-theme-faenza to core
+  * Added mate-indicator-applet to core
+  * Added mate-menu to core
+  * Added mate-menus to core
+  * Added mate-netbook to core
+  * Added mate-netspeed to core
+  * Added mate-notification-daemon to core
+  * Added mate-polkit to core
+  * Added mate-power-manager to core
+  * Added mate-screensaver to core
+  * Added mate-sensors-applet to core
+  * Added mate-system-monitor to core
+  * Added mate-themes to core
+  * Added mate-tweak to core
+  * Added mate-utils to core
+  * Added mozo to core
+  * Added onboard to core
+  * Added onboard-data to core
+  * Added pluma to core
+  * Added printer-driver-gutenprint to core
+  * Added printer-driver-hpcups to core
+  * Added printer-driver-postscript-hp to core
+  * Added pulseaudio-module-bluetooth to core
+  * Added pulseaudio-module-x11 to core
+  * Added python3-aptdaemon.pkcompat to core
+  * Added qt4-qtconfig to core
+  * Added sessioninstaller to core
+  * Added simple-scan to core
+  * Added smbclient to core
+  * Added software-center to core
+  * Added software-properties-gtk to core
+  * Added speech-dispatcher to core
+  * Added system-config-printer-gnome to core
+  * Added system-config-printer-udev to core
+  * Added tilda to core
+  * Added tlp to desktop
+  * Added tlp-rdw to desktop
+  * Added ubuntu-mate-lightdm-theme to desktop
+  * Added ubuntu-release-upgrader-gtk to core
+  * Added ubuntu-sso-client-qt to core
+  * Added update-manager to core
+  * Added update-notifier to core
+  * Added usb-creator-gtk to core [amd64 i386]
+  * Added whoopsie to core
+  * Added xcursor-themes to core
+  * Added xul-ext-ubufox to core
+  * Added xzoom to core
+  * Added yelp to core
+  * Added zenity to core
+  * Removed app-install-data-partner from cloudtop, desktop
+  * Removed apport from cloudtop, desktop
+  * Removed apport-gtk from cloudtop, desktop
+  * Removed apport-symptoms from cloudtop, desktop
+  * Removed apt-xapian-index from cloudtop, desktop
+  * Removed apturl from cloudtop, desktop
+  * Removed at-spi2-core from cloudtop, desktop
+  * Removed atril from cloudtop, desktop
+  * Removed brltty from cloudtop, desktop
+  * Removed brltty-x11 from cloudtop, desktop
+  * Removed caja from cloudtop, desktop
+  * Removed caja-gksu from cloudtop, desktop
+  * Removed caja-open-terminal from cloudtop, desktop
+  * Removed caja-sendto from cloudtop, desktop
+  * Removed cpufrequtils from core
+  * Removed cups-browsed from cloudtop, desktop
+  * Removed cups-core-drivers from cloudtop, desktop
+  * Removed cups-filters-core-drivers from cloudtop, desktop
+  * Removed cups-pk-helper from cloudtop, desktop
+  * Removed cups-ppdc from cloudtop, desktop
+  * Removed dconf-editor from cloudtop, desktop
+  * Removed engrampa from cloudtop, desktop
+  * Removed eom from cloudtop, desktop
+  * Removed espeak from cloudtop, desktop
+  * Removed firefox from cloudtop, desktop
+  * Removed folder-color-caja from cloudtop, desktop
+  * Removed galculator from cloudtop, desktop
+  * Removed ghostscript from cloudtop, desktop
+  * Removed gksu from cloudtop, desktop
+  * Removed gnome-keyring from cloudtop, desktop
+  * Removed gnome-orca from cloudtop, desktop
+  * Removed gnome-system-tools from cloudtop, desktop
+  * Removed gstreamer0.10-alsa from cloudtop, desktop
+  * Removed gstreamer0.10-plugins-good from cloudtop, desktop
+  * Removed gstreamer0.10-pulseaudio from cloudtop, desktop
+  * Removed gstreamer1.0-alsa from cloudtop, desktop
+  * Removed gstreamer1.0-plugins-good from cloudtop, desktop
+  * Removed gstreamer1.0-pulseaudio from cloudtop, desktop
+  * Removed gstreamer1.0-x from cloudtop, desktop
+  * Removed gucharmap from cloudtop, desktop
+  * Removed gufw from cloudtop, desktop
+  * Removed libp11-kit-gnome-keyring from cloudtop, desktop
+  * Removed libpam-gnome-keyring from cloudtop, desktop
+  * Removed libpaper-utils from cloudtop, desktop
+  * Removed lightdm from core
+  * Removed lightdm-gtk-greeter from core
+  * Removed lightdm-gtk-greeter-settings from core
+  * Removed marco from cloudtop, desktop
+  * Removed mate-applets from cloudtop, desktop
+  * Removed mate-icon-theme from cloudtop, desktop
+  * Removed mate-icon-theme-faenza from cloudtop, desktop
+  * Removed mate-indicator-applet from cloudtop, desktop
+  * Removed mate-menu from cloudtop, desktop
+  * Removed mate-menus from cloudtop, desktop
+  * Removed mate-netspeed from cloudtop, desktop
+  * Removed mate-notification-daemon from cloudtop, desktop
+  * Removed mate-polkit from cloudtop, desktop
+  * Removed mate-power-manager from cloudtop, desktop
+  * Removed mate-screensaver from cloudtop, desktop
+  * Removed mate-sensors-applet from cloudtop, desktop
+  * Removed mate-system-monitor from cloudtop, desktop
+  * Removed mate-themes from cloudtop, desktop
+  * Removed mate-tweak from cloudtop, desktop
+  * Removed mate-utils from cloudtop, desktop
+  * Removed mozo from cloudtop, desktop
+  * Removed onboard from cloudtop, desktop
+  * Removed onboard-data from cloudtop, desktop
+  * Removed plank from cloudtop
+  * Removed pluma from cloudtop, desktop
+  * Removed printer-driver-gutenprint from cloudtop, desktop
+  * Removed printer-driver-hpcups from cloudtop, desktop
+  * Removed printer-driver-postscript-hp from cloudtop, desktop
+  * Removed pulseaudio-module-x11 from cloudtop, desktop
+  * Removed qt4-qtconfig from cloudtop, desktop
+  * Removed sessioninstaller from cloudtop, desktop
+  * Removed simple-scan from desktop
+  * Removed smbclient from cloudtop, desktop
+  * Removed software-center from cloudtop, desktop
+  * Removed software-properties-gtk from cloudtop, desktop
+  * Removed speech-dispatcher from cloudtop, desktop
+  * Removed system-config-printer-gnome from cloudtop, desktop
+  * Removed system-config-printer-udev from cloudtop, desktop
+  * Removed tilda from cloudtop, desktop
+  * Removed ubuntu-mate-lightdm-theme from core
+  * Removed ubuntu-release-upgrader-gtk from cloudtop, desktop
+  * Removed ubuntu-sso-client-qt from cloudtop, desktop
+  * Removed update-manager from cloudtop, desktop
+  * Removed update-notifier from cloudtop, desktop
+  * Removed usb-creator-gtk from desktop [amd64 i386]
+  * Removed whoopsie from cloudtop, desktop
+  * Removed xcursor-themes from cloudtop, desktop
+  * Removed xul-ext-ubufox from cloudtop, desktop
+  * Removed xzoom from cloudtop, desktop
+  * Removed yelp from cloudtop, desktop
+  * Removed zenity from cloudtop, desktop
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Wed, 20 May 2015 07:10:04 -0600
+
+ubuntu-mate-meta (1.124) vivid; urgency=medium
+
+  * Refreshed dependencies (LP: #1441728)
+  * Added exfat-fuse to desktop
+  * Added exfat-utils to desktop
+  * Added fonts-nanum to core
+  * Added grub-pc to live [amd64 i386]
+  * Added indicator-applet to live
+  * Added keyutils to live
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Thu, 09 Apr 2015 08:19:00 -0600
+
+ubuntu-mate-meta (1.123) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added avahi-discover to core
+  * Added avahi-dnsconfd to core
+  * Added fonts-guru to cloudtop-recommends, core-recommends, desktop-
+    recommends
+  * Added libavahi-compat-libdnssd1 to core
+  * Added uvcdynctrl to desktop [ppc64el]
+  * Removed fonts-nanum from core
+  * Removed ttf-punjabi-fonts from cloudtop-recommends, core-recommends,
+    desktop-recommends
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Tue, 17 Mar 2015 08:14:36 -0700
+
+ubuntu-mate-meta (1.122) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added guvcview to desktop [amd64 armhf i386 powerpc]
+  * Added indicator-sound to live [amd64 armhf i386 powerpc]
+  * Added language-pack-bn to live [amd64 arm64 armhf i386 ppc64el]
+  * Added language-pack-es to live [amd64 arm64 armhf i386 ppc64el]
+  * Added language-pack-hi to live [amd64 arm64 armhf i386 ppc64el]
+  * Added language-pack-ja to live [amd64 arm64 armhf i386 ppc64el]
+  * Added language-pack-pt to live [amd64 arm64 armhf i386 ppc64el]
+  * Added language-pack-zh-hans to live [amd64 arm64 armhf i386 ppc64el]
+  * Added libreoffice-avmedia-backend-gstreamer to cloudtop [armhf powerpc], desktop [armhf powerpc]
+  * Added libreoffice-calc to cloudtop [armhf powerpc], desktop [armhf powerpc]
+  * Added libreoffice-gnome to cloudtop [armhf powerpc], desktop [armhf powerpc]
+  * Added libreoffice-impress to cloudtop [armhf powerpc], desktop [armhf powerpc]
+  * Added libreoffice-math to cloudtop [armhf powerpc], desktop [armhf powerpc]
+  * Added libreoffice-ogltrans to cloudtop [armhf powerpc], desktop [armhf powerpc]
+  * Added libreoffice-pdfimport to cloudtop [armhf powerpc], desktop [armhf powerpc]
+  * Added libreoffice-style-human to cloudtop [armhf powerpc], desktop [armhf powerpc]
+  * Added libreoffice-writer to cloudtop [armhf powerpc], desktop [armhf powerpc]
+  * Added mate-menu to cloudtop [amd64 armhf i386 powerpc], desktop [amd64 armhf i386 powerpc]
+  * Added mate-tweak to cloudtop [amd64 armhf i386 powerpc], desktop [amd64 armhf i386 powerpc]
+  * Added uvcdynctrl to desktop [amd64 arm64 armhf i386 powerpc]
+  * Added vlc-plugin-pulse to cloudtop
+  * Removed acpid from core [arm64 armhf ppc64el]
+  * Removed cheese from desktop
+  * Removed compizconfig-settings-manager from desktop
+  * Removed grub2-themes-ubuntu-mate from core [arm64 armhf ppc64el]
+  * Removed gstreamer0.10-plugins-base-apps from cloudtop, desktop
+  * Removed gstreamer0.10-x from cloudtop, desktop
+  * Removed gstreamer1.0-plugins-base-apps from cloudtop, desktop
+  * Removed indicator-sound from core [amd64 armhf i386 powerpc]
+  * Removed language-pack-de from live [amd64 arm64 armhf i386 ppc64el]
+  * Removed language-pack-it from live [amd64 arm64 armhf i386 ppc64el]
+  * Removed language-pack-nl from live [amd64 arm64 armhf i386 ppc64el]
+  * Removed language-pack-ru from live [amd64 arm64 armhf i386 ppc64el]
+  * Removed linux-signed-generic from live [amd64]
+  * Removed linux-signed-image-generic from live [amd64]
+  * Closes (LP: #1427195)
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 27 Feb 2015 00:12:13 +0000
+
+ubuntu-mate-meta (1.121) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added compiz-mate to desktop [armhf powerpc]
+  * Added folder-color-caja to cloudtop, desktop
+  * Added libegl1-mesa-drivers to core
+  * Added mate-terminal to core
+  * Added plank to cloudtop, desktop
+  * Added tilda to cloudtop
+  * Removed blueman from cloudtop
+  * Removed caja-actions from desktop [amd64 i386]
+  * Removed mate-menu from cloudtop, desktop
+  * Removed mate-tweak from cloudtop, desktop
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Tue, 24 Feb 2015 16:41:31 +0000
+
+ubuntu-mate-meta (1.120ubuntu1) vivid-proposed; urgency=medium
+
+  * Closes need packaging bug (LP: #1421711)
+
+ -- Adam Stokes <adam.stokes@ubuntu.com>  Fri, 13 Feb 2015 12:33:45 -0500
+
+ubuntu-mate-meta (1.120) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added lightdm-gtk-greeter-settings to core [powerpc]
+  * Added mate-menu to cloudtop [powerpc], desktop [powerpc]
+  * Added mate-tweak to cloudtop [powerpc], desktop [powerpc]
+  * Added plymouth-theme-ubuntu-mate-logo to core [powerpc]
+  * Added plymouth-theme-ubuntu-mate-text to core [powerpc]
+  * Added ubuntu-mate-artwork to core [powerpc]
+  * Added ubuntu-mate-default-settings to core [powerpc]
+  * Added ubuntu-mate-lightdm-theme to core [powerpc]
+  * Added ubuntu-mate-live-settings to live [powerpc]
+  * Added yuyo-gtk-theme to core [powerpc]
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Sun, 08 Feb 2015 20:25:21 +0000
+
+ubuntu-mate-meta (1.119) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added vlc-plugin-pulse to desktop
+  * Added ubiquity-slideshow-ubuntu-mate to live [amd64 i386]
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Wed, 28 Jan 2015 20:25:21 +0000
+
+ubuntu-mate-meta (1.118~15.04~13) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ubuntu-extras-keyring from cloudtop, core, desktop
+  * Added indicator-sound to core
+  * Removed indicator-sound from live
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Wed, 28 Jan 2015 20:05:21 +0000
+
+ubuntu-mate-meta (1.118~15.04~12) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added caja-actions to desktop [amd64 i386]
+  * Added libnotify-bin to core
+  * Added lightdm-gtk-greeter-settings to core [amd64 i386]
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Mon, 26 Jan 2015 22:34:24 +0000
+
+ubuntu-mate-meta (1.118~15.04~11) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added tilda to desktop
+  * Removed guake from desktop
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Wed, 21 Jan 2015 21:59:19 +0000
+
+ubuntu-mate-meta (1.118~15.04~9) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added guake to desktop
+  * Removed tilda from desktop
+  * Refreshed dependencies
+  * Added compiz-core to desktop
+  * Added gnome-session-canberra to core
+  * Added libcanberra-gtk-module to core
+  * Added libcanberra-gtk3-module to core
+  * Added light-themes to live
+  * Added syslinux-utils to core
+  * Added ubuntu-mate-live-settings to live
+  * Removed compiz-plugins-extra from desktop
+  * Removed compiz-plugins-main-default from desktop
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Wed, 21 Jan 2015 03:59:16 +0000
+
+ubuntu-mate-meta (1.118~15.04~8) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added tilda to desktop
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Mon, 19 Jan 2015 00:14:42 +0000
+
+ubuntu-mate-meta (1.118~15.04~7) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ibus from live
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Thu, 15 Jan 2015 22:34:09 +0000
+
+ubuntu-mate-meta (1.118~15.04~6) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added ibus to live [amd64 i386]
+  * Added linux-signed-generic to live [amd64]
+  * Added linux-signed-image-generic to live [amd64]
+  * Added compiz to desktop
+  * Added compiz-mate to desktop [amd64 i386]
+  * Added compiz-plugins to desktop
+  * Added compiz-plugins-default to desktop
+  * Added compiz-plugins-extra to desktop
+  * Added compiz-plugins-main-default to desktop
+  * Added compizconfig-settings-manager to desktop
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Tue, 13 Jan 2015 03:05:33 +0000
+
+ubuntu-mate-meta (1.118~15.04~5) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Removed libgpod-common from cloudtop
+  * Removed libmtp-runtime from cloudtop
+  * Removed usbmuxd from cloudtop
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 09 Jan 2015 00:35:28 +0000
+
+ubuntu-mate-meta (1.118~15.04~4) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added cloudtop meta package
+
+ -- Martin Wimpress <code@flexion.org>  Thu, 08 Jan 2015 23:18:48 +0000
+
+ubuntu-mate-meta (1.118~15.04~3) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ubuntu-mate-live-settings from live
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 06 Jan 2015 23:14:56 +0000
+
+ubuntu-mate-meta (1.118~15.04~2) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added vlc to desktop
+  * Removed totem from desktop
+  * Removed totem-plugins from desktop
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 06 Jan 2015 23:10:28 +0000
+
+ubuntu-mate-meta (1.118~15.04~1) vivid; urgency=medium
+
+  * Refreshed dependencies
+  * Added yuyo-gtk-theme to core
+  * Removed feh from live
+  * Removed light-themes from live
+
+ -- Martin Wimpress <code@flexion.org>  Tue, 06 Jan 2015 22:21:48 +0000
+
+ubuntu-mate-meta (1.117~utopic10) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-sso-client-qt to desktop
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Tue, 25 Nov 2014 10:30:37 +0000
+
+ubuntu-mate-meta (1.117~utopic9) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed cpufreqd from core
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Tue, 25 Nov 2014 09:23:41 +0000
+
+ubuntu-mate-meta (1.117~utopic8) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added mate-indicator-applet to desktop
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Thu, 06 Nov 2014 22:22:46 +0000
+
+ubuntu-mate-meta (1.117~utopic7) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added mate-menu to desktop
+  * Removed matemenu from desktop
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Tue, 04 Nov 2014 00:55:21 +0000
+
+ubuntu-mate-meta (1.117~utopic6) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added mate-tweak to desktop
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Mon, 03 Nov 2014 04:36:17 +0000
+
+ubuntu-mate-meta (1.117~utopic5) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added matemenu to desktop
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 01 Nov 2014 15:43:55 +0000
+
+ubuntu-mate-meta (1.117~utopic4) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added apt-xapian-index to desktop
+
+ -- Martin Wimpress <code@flexion.org>  Sat, 01 Nov 2014 12:27:56 +0000
+
+ubuntu-mate-meta (1.117~utopic3) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-control-center-shared-data to core
+
+ -- Martin Wimpress <code@flexion.org>  Fri, 31 Oct 2014 22:54:47 +0000
+
+ubuntu-mate-meta (1.117~utopic2) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added feh to live
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Tue, 21 Oct 2014 22:52:32 +0100
+
+ubuntu-mate-meta (1.116~utopic9) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added dmraid to live
+  * Added lvm2 to live
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Sun, 19 Oct 2014 18:53:09 +0100
+
+ubuntu-mate-meta (1.116~utopic8) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added ttf-ancient-fonts-symbola to core-recommends, desktop-
+    recommends
+  * Removed libreoffice-presentation-minimizer from desktop
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Mon, 06 Oct 2014 21:51:57 +0100
+
+ubuntu-mate-meta (1.116~utopic7) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added libcanberra-pulse to core
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Mon, 22 Sep 2014 22:22:41 +0100
+
+ubuntu-mate-meta (1.116~utopic6) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added ubuntu-mate-no-splash-on-crypt to core
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Sun, 21 Sep 2014 23:13:53 +0100
+
+ubuntu-mate-meta (1.116~utopic4) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-system-tools to desktop
+  * Removed indicator-datetime from live
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Thu, 18 Sep 2014 03:09:35 +0100
+
+ubuntu-mate-meta (1.116~utopic2) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added indicator-sound to live
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Wed, 17 Sep 2014 23:45:55 +0100
+
+ubuntu-mate-meta (1.116~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ibus from core
+  * Removed ibus-anthy from core
+  * Removed ibus-gtk from core
+  * Removed ibus-gtk3 from core
+  * Removed ibus-qt4 from core
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Wed, 17 Sep 2014 06:08:27 +0100
+
+ubuntu-mate-meta (1.115~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added grub2-themes-ubuntu-mate to core
+  * Added indicator-datetime to live
+  * Added indicator-keyboard to live
+  * Added indicator-power to live
+  * Added indicator-session to live
+  * Removed grub-theme-ubuntu-mate from core
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Sun, 14 Sep 2014 04:19:05 +0100
+
+ubuntu-mate-meta (1.114~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added indicator-application to live
+  * Removed policykit-desktop-privileges-ubuntu-mate from core
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Thu, 11 Sep 2014 03:54:13 +0100
+
+ubuntu-mate-meta (1.113~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added ibus to core
+  * Added ibus-anthy to core
+  * Added ibus-gtk to core
+  * Added ibus-gtk3 to core
+  * Added ibus-qt4 to core
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Thu, 11 Sep 2014 14:24:53 +0100
+
+ubuntu-mate-meta (1.112~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added grub-theme-ubuntu-mate to core
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Fri, 05 Sep 2014 02:51:47 +0100
+
+ubuntu-mate-meta (1.111~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added gksu to desktop
+  * Added mate-gnome-main-menu-applet to core
+  * Removed mate-desktop-environment-extra from desktop
+  * Removed mate-terminal from core
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Wed, 03 Sep 2014 01:12:31 +0100
+
+ubuntu-mate-meta (1.110~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added policykit-desktop-privileges-ubuntu-mate to core
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Tue, 02 Sep 2014 05:53:54 +0100
+
+ubuntu-mate-meta (1.109~utopic2) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed dkms from core
+  * Removed virtualbox-guest-x11 from live
+  * Removed dmraid from live
+  * Removed grub-pc from live
+  * Removed lvm2 from live
+  * Removed ubiquity-slideshow-ubuntu-mate from live
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Fri, 29 Aug 2014 03:41:56 +0100
+
+ubuntu-mate-meta (1.108~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added dmraid to live
+  * Added grub-pc to live
+  * Added lvm2 to live
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Thu, 28 Aug 2014 03:46:15 +0100
+
+ubuntu-mate-meta (1.107~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Removed grub2-common from live
+  * Removed lvm2 from live
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Thu, 28 Aug 2014 01:25:44 +0100
+
+ubuntu-mate-meta (1.106~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added grub2-common to live
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Thu, 28 Aug 2014 00:30:23 +0100
+
+ubuntu-mate-meta (1.105~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added qt4-qtconfig to desktop
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Wed, 27 Aug 2014 23:35:53 +0100
+
+ubuntu-mate-meta (1.104~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added lvm2 to live
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Wed, 27 Aug 2014 22:23:00 +0100
+
+ubuntu-mate-meta (1.103~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added language-pack-it to live
+  * Added language-pack-nl to live
+  * Added language-pack-ru to live
+  * Removed account-plugin-facebook from desktop
+  * Removed account-plugin-flickr from desktop
+  * Removed account-plugin-google from desktop
+  * Removed ffmpegthumbnailer from core
+  * Removed language-pack-gnome-de from live
+  * Removed language-pack-gnome-en from live
+  * Removed language-pack-gnome-es from live
+  * Removed language-pack-gnome-fr from live
+  * Removed language-pack-gnome-hi from live
+  * Removed language-pack-gnome-ja from live
+  * Removed language-pack-gnome-pt from live
+  * Removed language-pack-gnome-xh from live
+  * Removed language-pack-gnome-zh-hans from live
+  * Removed language-pack-hi from live
+  * Removed language-pack-ja from live
+  * Removed language-pack-xh from live
+  * Removed language-pack-zh-hans from live
+  * Removed libaccount-plugin-generic-oauth from desktop
+  * Removed libaccount-plugin-google from desktop
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Wed, 27 Aug 2014 03:05:18 +0100
+
+ubuntu-mate-meta (1.102~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added firefox-locale-en to live
+  * Added language-pack-fr to live
+  * Added language-pack-gnome-fr to live
+  * Added language-pack-gnome-hi to live
+  * Added language-pack-gnome-ja to live
+  * Added language-pack-gnome-xh to live
+  * Added language-pack-hi to live
+  * Added language-pack-ja to live
+  * Added language-pack-xh to live
+  * Added ubiquity-slideshow-ubuntu-mate to live
+  * Removed libreoffice-help-en-us from live
+  * Removed ubiquity-slideshow-ubuntu from live
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Wed, 27 Aug 2014 02:56:44 +0100
+
+ubuntu-mate-meta (1.101~utopic2) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added printer-driver-brlaser to core-recommends, desktop-recommends
+  * Removed ecryptfs-utils from core
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Tue, 26 Aug 2014 01:55:03 +0100
+
+ubuntu-mate-meta (1.100~utopic1) utopic; urgency=medium
+
+  * Refreshed dependencies
+  * Added ecryptfs-utils to core
+  * Added iw to core
+  * Added pidgin-libnotify to desktop
+  * Added pidgin-otr to desktop
+  * Added usbmuxd to desktop
+  * Removed gnome-system-tools from desktop
+
+ -- Ubuntu MATE Developers <code@ubuntu-mate.org>  Wed, 20 Aug 2014 01:22:30 +0100
