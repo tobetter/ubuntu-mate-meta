@@ -67,6 +67,7 @@ wireless-tools
 wpasupplicant
 xdg-user-dirs
 xdg-user-dirs-gtk
+xserver-xorg-video-armsoc-rk3568
 xkb-data
 xorg
 yelp
